@@ -1,0 +1,151 @@
+!!! 5
+%html{:lang => "en"}
+
+  = partial( 'head.html.haml' )
+   
+  %body
+    %div.container-fluid  
+      %div.row-fluid
+        %div.span12
+          = partial( 'header.html.haml' )
+              
+          %div.row-fluid         
+           
+            %br  
+            %div{:style=>"text-align:left;"}
+              %h2.homeTitle 
+                JBoss Enterprise Application Platform
+                
+              %p 
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi 
+                commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
+                id pulvinar odio lorem non turpis. Nullam sit amet
+                enim. 
+
+
+
+          <!-- Only required for left/right tabs -->
+          %div.tabbable 
+            %ul.nav.nav-tabs
+              %li.active
+                %a{:href=>"#tab1", "data-toggle"=>"tab"}General
+              %li
+                %a{:href=>"#tab2", "data-toggle"=>"tab"}EAP 5.x
+              %li
+                %a{:href=>"#tab3", "data-toggle"=>"tab"}EAP 4.x
+    
+
+            <!-- ++++++++++++++###############++++++++++++++++ -->
+            %div.tab-content
+
+              <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+              %div.tab-pane.active{:"id"=>"tab1"}
+
+                %p
+                  JBoss EAP 6 is based upon a new server architecture and there are
+                  new implementations of several JBoss Enterprise Application Platform
+                  components. Here are the
+                  areas to which you will want to pay particular attention as
+                  you migration your applications.
+
+                %br
+                %h3 Application
+
+                %br
+                %h3 Server Configuration
+
+                %br
+                %ul
+                  %li
+                    %dt
+                      Server configuration files
+                    %dd
+                      JBoss EAP 6 server's architecture has changed.  The microkernel has been rewritten.
+                      The directory structure is different, and most importantly the server
+                      configuration file structure is different both for standalone
+                      and clustered configurations. The
+                      %a{:href=>'https://docs.jboss.org/author/display/AS7/Getting+Started+Guide#GettingStartedGuide-AS7AQuickTour'}"AS 7 Quick Tour Guide"
+                      , provides a good overview of the layout of the distribution, the server directory structure, and
+                      the key configuration files.  
+                      %a{:href=>'https://docs.jboss.org/author/display/AS71/How+do+I+migrate+my+application+from+AS5+or+AS6+to+AS7'}"How do I migrate my application from AS5 or AS6 to AS7",
+                      can be used as a guide to migration your JBoss EAP 5 applications.
+                    %br
+                    
+                    %li
+                      %dt
+                        Caching
+                      %dd
+                        Infinispan provides the caching facility in JBoss EAP 6.  It replaces
+                        JBoss Cache which is provided in JBoss EAP 5.  
+                        There is no 1-to-1 mapping of the server configuration attributes 
+                        between these two components, however the, 
+                        %a{:href=>'https://docs.jboss.org/author/display/ISPN/Configuration+Migration+Tools'}"Configuration Migration Tools",
+                        section of the, "Infinispan 5.2", guide provides directions for migrating the settings.
+                      %br
+
+                      %li
+                        = partial( 'frags/JPA-frag.html.haml' )
+                      %br
+
+                      %li
+                        = partial( 'frags/JAX-RS-frag.html.haml' )
+                      %br
+
+
+
+
+              <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+              %div.tab-pane{:"id"=>"tab2"}
+                
+                %br
+                %h3 Application
+
+                %br
+                %h3 Server Configuration
+
+                %br
+                %ul
+                  %li
+                    %dt
+                      JMS
+                    %dd
+                      HornetQ, is the new ultra high performance enterprise grade messaging system in
+                      JBoss EAP 6.  It replaces JBossMQ in JBoss EAP 5.  The
+                      server configuration attributes for HornetQ are different from JBossMQ.  Section 2.5 of the,
+                      %a{:href=>'http://documentation-devel.engineering.redhat.com/docs/en-US/JBoss_Enterprise_Application_Platform/5/html-single/HornetQ_User_Guide/index.html#idm89903344'}"HornetQ User Guide", 
+                      defines the relationship between the new and old attributes.
+
+                    %br
+ 
+              <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+              %div.tab-pane{:"id"=>"tab3"}
+                
+                %br
+                %h3 Application
+
+                %br
+                %h3 Server Configuration
+
+                %br
+                %ul
+                  %li
+                    %dt
+                      JMS
+                    %dd
+                      HornetQ, is the new ultra high performance enterprise grade messaging system in
+                      JBoss EAP 6.  It replaces JBossMQ in JBoss EAP 4.2.0 and JBoss Messaging in JBoss EAP 4.2.1.  The
+                      server configuration attributes for HornetQ are different from both JBossMQ and 
+                      JBoss Messaging.  Section 2.5 of the,
+                      %a{:href=>'http://documentation-devel.engineering.redhat.com/docs/en-US/JBoss_Enterprise_Application_Platform/5/html-single/HornetQ_User_Guide/index.html#idm89903344'}"HornetQ User Guide", 
+                      defines the relationship between the new and old attributes.
+                                  
+                    %br
+    
+
+
+
+
+
+
+                           
+    = partial( 'script-list.html.haml' )

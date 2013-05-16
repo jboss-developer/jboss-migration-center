@@ -1,0 +1,221 @@
+.homeTitle {
+    color:purple;
+}
+
+.migrButtonBar {
+  background-color: gray;        
+}
+
+.migrUl { 
+    list-style-image:url(/images/ChevronBullets.png);
+}
+
+#homeWallPaper {
+background-image:url(/images/DeployonEAP.png);
+background-repeat:no-repeat;
+background-position: 125px 30px;
+height:385px;
+} 
+
+.homeIgm {
+    width:35px; 
+    height:35px;
+}
+
+.homePgBtn {
+    color:purple; 
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width:100%; 
+    height:75px;
+    border-radius:5px;
+    text-align:left;
+}
+
+
+.deployBtn {
+    color:purple; 
+    background-color: white; 
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width:100%; 
+    height:75px;
+    #border-radius:5px;
+    text-align:center;
+    font-size:30px;
+}
+
+
+.homeBtnTitle {
+    width: 180px; 
+    padding-left:15px;
+    padding-top:10px;
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.homeBtnText {
+    width: 240px; 
+    margin-right: 0px; 
+    line-height:90%; 
+    font-size: 12px; 
+    color: gray;
+    padding-left:10px;
+}
+
+
+.migrNavBtn {
+    /*width:125px;*/
+    width:200px;
+    font-size:18px; 
+    text-align:center;
+}
+
+.migrDropdownMenu {
+    text-align:left;
+}
+
+.mktBtn {
+    color:white; 
+    background-color: DimGrey; 
+    margin-bottom: 20px; 
+    width:200px; 
+    height:75px;
+    #width:15em; 
+    #height:5em;
+    border-radius:5px;
+    float: right;
+}
+
+.mktBtnTitle {
+    line-height:90%;
+    font-size: 22px;
+}
+
+.mktBtnText {
+    margin-top:0; 
+    line-height:90%;
+}
+
+
+.appDiv {
+    width:200px;
+    float: left;
+}
+
+
+.appBtn {
+    color:white; 
+    background-color: LightSteelBlue; 
+    margin-bottom: 5px; 
+    width:200px; 
+    height:100px; 
+    float: right;
+    display: table-cell;
+    text-align:center;
+}
+
+
+.appBtnTitle {
+    line-height:90%;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+
+.appBtnText {
+    margin-top:0; 
+    line-height:90%;
+    font-size: small;
+}
+
+.cfgDiv {
+    #width:200px;
+}
+
+.cfgBtn {
+    color:white; 
+    background-color: LightSteelBlue; 
+    margin-bottom: 5px; 
+    width:200px; 
+    height:100px; 
+    float: left;
+    #clear: both;
+    
+    display: table-cell;
+    text-align:center;
+}
+
+.cfgBtnTitle {
+    line-height:90%;
+    #margin-top: 30px;
+    vertical-align: middle;
+}
+
+.cfgBtnText {
+    margin-top:0; 
+    line-height:90%;
+    font-size: small;
+}
+
+.dpyTitle {
+    color:white; 
+    background-color: DimGrey ;
+    margin-top: 0px;
+    text-align:center;
+}
+
+.learnImg{
+    width:10px; 
+    height: 10px;
+}
+
+.btnBarIcon {
+  width: 40px;
+  height: 40px;
+  float:left;
+}
+
+
+/* tab settings */
+/*
+.tab-content {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+}
+
+*/
+
+
+
+.discoverBtn {
+    color:white; 
+    width:235px; 
+    height:60px; 
+    font-size:22px; 
+    border-radius:5px; 
+    margin-right:20px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.discoverVisitBtn {
+    background-color:gray;
+}
+
+.discoverDwnLdBtn {
+    background-color:purple;
+}
+
+.discoverDwnLdBtnDisabled {
+    background-color:#ECD9EC;
+    border-bottom: #E5E5E5;
+    border-right:#E5E5E5;
+}
+
+
+

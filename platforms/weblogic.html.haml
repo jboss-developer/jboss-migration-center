@@ -1,0 +1,124 @@
+!!! 5
+%html{:lang => "en"}
+
+  = partial( 'head.html.haml' )
+   
+  %body
+    %div.container-fluid  
+      %div.row-fluid
+        %div.span12
+          = partial( 'header.html.haml' )
+              
+          %div.row-fluid         
+           
+            %br  
+            %div{:style=>"text-align:left;"}
+              %h2.homeTitle  
+                Oracle Weblogic
+
+                
+              %p 
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi 
+                commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
+                id pulvinar odio lorem non turpis. Nullam sit ametenim. 
+
+
+
+          <!-- Only required for left/right tabs -->
+          %div.tabbable 
+            %ul.nav.nav-tabs
+              %li.active
+                %a{:href=>"#tab1", "data-toggle"=>"tab"}General
+              %li
+                %a{:href=>"#tab11", "data-toggle"=>"tab"}11.x
+              %li
+                %a{:href=>"#tab10", "data-toggle"=>"tab"}10.x
+    
+
+            <!-- ++++++++++++++###############++++++++++++++++ -->
+            %div.tab-content
+
+              <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+              %div.tab-pane.active{:"id"=>"tab1"}
+
+                %h3 Application
+
+                %h4 Proprietary Features to Replace
+
+                %ul
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-WebLogicCommonJFrameworkorWebLogicWorkManagerAPI", 
+                        "target"=>"_blank"}WebLogic CommonJ Framework or WebLogic Work Manager API
+
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-ReplaceWebLogicVirtualDirectories", 
+                            "target"=>"_blank"}Replace WebLogic Virtual Directories
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-ReplaceWebLogicApplicationLifecycleListenerCode", 
+                            "target"=>"_blank"}Replace WebLogic ApplicationLifecycleListener Code
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-WebLogicProprietaryAnnotations", 
+                            "target"=>"_blank"}WebLogic Proprietary Annotations
+
+                
+                %h4 Application Deployment Descriptors
+
+                %ul
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-MapConfigurationFilesandDescriptorstotheJBossEquivalent", 
+                            "target"=>"_blank"}Map Configuration Files and Descriptors to the JBoss Equivalent
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-Replacetheweblogicejbjar.xmlDeploymentDescriptor", 
+                            "target"=>"_blank"}Replace the weblogic-ejb-jar.xml Deployment Descriptor
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-Migrateweblogic.xmlDescriptorFileConfigurations", 
+                            "target"=>"_blank"}Migrate weblogic.xml Descriptor File Configurations
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-Migrateweblogicapplication.xmlDescriptorFileConfigurations", 
+                            "target"=>"_blank"}Migrate weblogic-application.xml Descriptor File Configurations
+                  
+
+
+
+                %br
+                %h3 Server Configuration
+
+                %ul
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-UsePropertySubstitutiontoSpecifytheTargetDeploymentEnvironment", 
+                            "target"=>"_blank"}Enable Property Substitution
+                  
+                %h4 Security Topics
+                %ul
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-ReplaceWebLogicOracleWallets", 
+                            "target"=>"_blank"}Replace WebLogic Oracle Wallets
+                  %li
+                    %a{:href=>"https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-WebLogicCerticombasedSSLImplementation", 
+                            "target"=>"_blank"}WebLogic Certicom-based SSL Implementation
+
+   
+
+              <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+              %div.tab-pane{:"id"=>"tab11"}
+                
+                %br
+                %h3 Application
+
+                %br
+                %h3 Server Configuration
+
+ 
+              <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+              %div.tab-pane{:"id"=>"tab10"}
+                
+                %br
+                %h3 Application
+
+                %br
+                %h3 Server Configuration
+
+
+
+                           
+    = partial( 'script-list.html.haml' )
