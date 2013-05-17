@@ -1,5 +1,5 @@
 .homeTitle {
-    color:purple;
+    color:#781f1c;
 }
 
 .migrButtonBar {
@@ -23,7 +23,7 @@ height:385px;
 }
 
 .homePgBtn {
-    color:purple; 
+    color:#781f1c; 
     margin-bottom: 5px;
     margin-top: 5px;
     width:100%; 
@@ -34,7 +34,7 @@ height:385px;
 
 
 .deployBtn {
-    color:purple; 
+    color:#781f1c; 
     background-color: white; 
     margin-bottom: 15px;
     margin-top: 15px;
@@ -208,7 +208,7 @@ height:385px;
 }
 
 .discoverDwnLdBtn {
-    background-color:purple;
+    background-color:#781f1c;
 }
 
 .discoverDwnLdBtnDisabled {
