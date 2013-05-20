@@ -1,72 +1,48 @@
-!!! 5
-%html{:lang => "en"}
-
-  = partial( 'head.html.haml' )
-   
-  %body
-    %div.container-fluid  
-      %div.row-fluid
-        %div.span12
-          = partial( 'header.html.haml' )
-              
-          %div.row-fluid         
-           
-            %br  
-            %div{:style=>"text-align:left;"}
-              %h2.homeTitle  
-                Discover
-              
-              %br
-              %p 
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi 
-                commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
-                id pulvinar odio lorem non turpis. Nullam sit amet
-                enim. Suspendisse id velit vitae ligula volutpat condimentum. 
-                Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. 
-                Vivamus pharetra posuere sapien. Nam consectetuer.
-
-  
-   
-              %br
-              %h3 Application
-              %h4 Windup
-              %p 
-                Windup is a tool to simplify Java application migrations. Running 
-                from the command line, the tool analyzes artifacts from Java applications 
-                and produces an HTML report highlighting areas that require changes. 
-                The analyzer is driven by customizable and extendable rules to provide 
-                information to assist the developer in migrating 
-                applications. It's initial focus is Java EE applications but the 
-                Windup design and rule organization is general enough to allow Windup 
-                to be used for practically any kind of migration.
-
-
-              %div.span3
-                %img{:src=>"#{site.base_url}/images/windup-logo-wiki-header.jpg"}
-              %div.span3
-                %button.discoverBtn.discoverDwnLdBtn{:"onClick"=>"location.href='http://windup.jboss.org/download.html'"} Download Windup
-              %div.span3
-                %button.discoverBtn.discoverVisitBtn{:"onClick"=>"location.href='http://windup.jboss.org'"}Visit windup.jboss.org
-              %div.span2
-
-
-          %br
-          %h3 Server Configuration
-          %h4 JBoss Configuration Migration Tool
-          %p 
-            The focus of this tool is to discover and copy EAP 5 application 
-            server configuration data to EAP 6.
-
-            
-            %div.span3
-              %p.discoverBtn
-                 
-            %div.span3
-              -# %button.discoverBtn.discoverDwnLdBtnDisabled{:"onClick"=>"#location.href='#'"} Download
-            %div.span3
-              %button.discoverBtn.discoverVisitBtn{:"onClick"=>"location.href='https://github.com/OndraZizka/jboss-migration'"}Visit GitHub jboss-migration
-            %div.span2
-
-
-                      
-    = partial( 'script-list.html.haml' )
+---
+layout: base
+---
+%div.row-fluid         
+  %br  
+  %div{:style=>"text-align:left;"}
+    %h2.homeTitle  
+      Discover 
+    %br
+    %p 
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi 
+      commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
+      id pulvinar odio lorem non turpis. Nullam sit amet
+      enim. Suspendisse id velit vitae ligula volutpat condimentum. 
+      Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. 
+      Vivamus pharetra posuere sapien. Nam consectetuer.  
+    %br
+    %h3 Application
+    %h4 Windup
+    %p 
+      Windup is a tool to simplify Java application migrations. Running 
+      from the command line, the tool analyzes artifacts from Java applications 
+      and produces an HTML report highlighting areas that require changes. 
+      The analyzer is driven by customizable and extendable rules to provide 
+      information to assist the developer in migrating 
+      applications. It's initial focus is Java EE applications but the 
+      Windup design and rule organization is general enough to allow Windup 
+      to be used for practically any kind of migration.  
+    %div.span3
+      %img{:src=>"#{site.base_url}/images/windup-logo-wiki-header.jpg"}
+    %div.span3
+      %button.discoverBtn.discoverDwnLdBtn{:"onclick"=>"location.href='http://windup.jboss.org/download.html'"} Download Windup
+    %div.span3
+      %button.discoverBtn.discoverVisitBtn{:"onclick"=>"location.href='http://windup.jboss.org'"}Visit windup.jboss.org
+    %div.span2 
+%br
+%h3 Server Configuration
+%h4 JBoss Configuration Migration Tool
+%p 
+  The focus of this tool is to discover and copy EAP 5 application 
+  server configuration data to EAP 6.  
+  %div.span3
+    %p.discoverBtn 
+  %div.span3
+    -# %button.discoverBtn.discoverDwnLdBtnDisabled{:"onClick"=>"#location.href='#'"} Download
+  %div.span3
+    %button.discoverBtn.discoverVisitBtn{:"onClick"=>"location.href='https://github.com/OndraZizka/jboss-migration'"}Visit GitHub jboss-migration
+  %div.span2 
