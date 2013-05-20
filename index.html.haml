@@ -1,129 +1,72 @@
-!!! 5
-%html{:lang => "en"}
-
-  = partial( 'head.html.haml' )
-    
-  %body
-    %div.container-fluid  
-      %div.row-fluid
-        %div.span12
-          = partial( 'header.html.haml' )
-          
-          
-          %div{:style=>"text-align:center;"}
-            %h3.homeTitle 
-              Let us help you migrate to Red Hat<sup>&#174</sup> 
-              JBoss<sup>&#174</sup> Enterprise Application Platform 6!
-             
-          %div.row-fluid         
-            %div.span2
- 
-            %div.span10      
-              %div.row-fluid 
-
-            -# {:style=>"background-image: url(/images/DeployonEAP.png);"}
-            %div.span8#homeWallPaper
-              %div.row-fluid 
-  
-              
-              <!-- ########## header of diagram ########## -->
-              %div.offset4
-                %div.appDiv
-                  %h4{:style=>"text-align:center;"} Application Preparation
-
-              %div
-                %div.cfgDiv
-                  %h4{:style=>"text-align:center;"} Server Preparation
-            
-
-              <!-- ########## middle buttons ########## -->
-              %button.homePgBtn.span11.offset1{:"type"=>"button", 
-                    "onClick"=>"location.href='/common/learn.html'"}
-                %div.span4.homeBtnTitle
-                  %p LEARN
-                %div.span4.homeBtnText
-                  %p Learn about how applications are built using JBoss EAP. 
-                %div.span4.homeBtnText
-                  %p Learn about what server capabilities are provided in EAP
-             
-
-              %button.homePgBtn.span11.offset1{:"type"=>"button", 
-                    "onClick"=>"location.href='/common/discover.html'"}
-                %div.span4.homeBtnTitle
-                  %p DISCOVER
-                %div.span4.homeBtnText
-                  %p Run one of our tools to help you identify changes you need to make to your application.  
-                %div.span4.homeBtnText
-                  %p Identify the JBoss EAP equivalent capabilities to support your application
-
-
-             
-              %button.homePgBtn.span11.offset1{:"type"=>"button", 
-                    "onClick"=>"location.href='/common/implement.html'"}
-                %div.span4.homeBtnTitle
-                  %p IMPLEMENT
-                %div.span4.homeBtnText
-                  %p Implement the changes to your application
-                %div.span4.homeBtnText
-                  %p Set up JBoss EAP with the capabilities needed for your application.
-
-       
-
-
-
-
-
-            <!-- ############### right column ############### -->      
-            %div.span3
-
-             
-              %button.mktBtn{:"type"=>"button", 
-                    "onClick"=>"location.href='/common/migrationDrivers.html'"}
-                %div
-                  %h3.mktBtnTitle Why Migrate?
-                  %p.mktBtnText Understand migration drivers
-
-              %button.mktBtn{:"type"=>"button", 
-                    "onClick"=>"location.href='/common/migrationPlanning.html'"}
-                %div
-                  %h3.mktBtnTitle Planning Sheet
-                  %p.mktBtnText Use our migration plan
-              
-              %button.mktBtn{:"type"=>"button", 
-                    "onClick"=>"location.href='http://www.redhat.com/consulting/technology-solutions/migrations/'"}
-                %div
-                  %h3.mktBtnTitle Need more help?
-                  %p.mktBtnText Contact Red Hat consulting for further migration help
-
-              %button.mktBtn{:"type"=>"button", 
-                    "onClick"=>"location.href='http://community.jboss.org/en/migration'"}
-                %div
-                  %h3.mktBtnTitle Discuss
-                  %p.mktBtnText Join the conversation on our migration forums
-
-
-
-
-            %br
-            %br
-            %div.span11.offset1      
-              %div.row-fluid
-             
-              %h4.homeTitle What platforms can I migrate from?
-              %ul
-                %li
-                  %a{:href=>"/platforms/weblogic.html"}Oracle WebLogic
-                %li
-                  %a{:href=>"/platforms/eap.html"}Older versions of JBoss EAP
-                %br
-                %li{:style=>"color:gray;"}
-                  Coming soon! IBM Websphere, Apache Tomcat and Glassfish
-                
-                  
-
-
-            
-
-    = partial( 'script-list.html.haml' )
-   
-
+---
+layout: base
+---
+%div{:style=>"text-align:center;"}
+  .homeTitle 
+    Let us help you migrate to Red Hat<sup>&#174</sup> 
+    JBoss<sup>&#174</sup> Enterprise Application Platform 6!  
+.row
+  .span9#homeWallPaper
+    <!-- ########## header of diagram ########## -->
+    .row
+      .offset3.span3.appDiv
+        %h4 Application Preparation 
+      .span3.cfgDiv
+        %h4 Server Preparation 
+    <!-- ########## middle buttons ########## -->
+    .row
+      %button.homePgBtn.span9{:"type"=>"button", :"onclick"=>"location.href='/common/learn.html'"}
+        .span2.homeBtnTitle
+          %p LEARN
+        .span3.homeBtnText
+          %p Learn about how applications are built using JBoss EAP. 
+        .span3.homeBtnText
+          %p Learn about what server capabilities are provided in EAP 
+    .row
+      %button.homePgBtn.span9{:"type"=>"button", "onclick"=>"location.href='/common/discover.html'"}
+        .span2.homeBtnTitle
+          %p DISCOVER
+        .span3.homeBtnText
+          %p Run one of our tools to help you identify changes you need to make to your application.  
+        .span3.homeBtnText
+          %p Identify the JBoss EAP equivalent capabilities to support your application 
+    .row
+      %button.homePgBtn.span9{:"type"=>"button", :"onclick"=>"location.href='/common/implement.html'"}
+        .span2.homeBtnTitle
+          %p IMPLEMENT
+        .span3.homeBtnText
+          %p Implement the changes to your application
+        .span3.homeBtnText
+          %p Set up JBoss EAP with the capabilities needed for your application.  
+  <!-- ############### right column ############### -->      
+  .span3 
+    .row
+      %button.mktBtn{:"type"=>"button", :"onclick"=>"location.href='/common/migrationDrivers.html'"}
+        %div
+          %h3.mktBtnTitle Why Migrate?
+          %p.mktBtnText Understand migration drivers 
+    .row
+      %button.mktBtn{:"type"=>"button", :"onclick"=>"location.href='/common/migrationPlanning.html'"}
+        %div
+          %h3.mktBtnTitle Planning Sheet
+          %p.mktBtnText Use our migration plan 
+    .row
+      %button.mktBtn{:"type"=>"button", :"onclick"=>"location.href='http://www.redhat.com/consulting/technology-solutions/migrations/'"}
+        %div
+          %h3.mktBtnTitle Need more help?
+          %p.mktBtnText Contact Red Hat consulting for further migration help 
+    .row
+      %button.mktBtn{:"type"=>"button", :"onclick"=>"location.href='http://community.jboss.org/en/migration'"}
+        %div
+          %h3.mktBtnTitle Discuss
+          %p.mktBtnText Join the conversation on our migration forums 
+  .row
+    .span12
+      %h4.homeTitle What platforms can I migrate from?
+      %ul
+        %li
+          %a{:href=>"/platforms/weblogic.html"}Oracle WebLogic
+        %li
+          %a{:href=>"/platforms/eap.html"}Older versions of JBoss EAP
+        %li{:style=>"color:gray;"}
+          Coming soon! IBM Websphere, Apache Tomcat and Glassfish 

@@ -11,14 +11,13 @@
 }
 
 #homeWallPaper {
-background-image:url(/images/DeployonEAP.png);
-background-repeat:no-repeat;
-background-position: 125px 30px;
-height:385px;
+  background-image:url(/images/DeployonEAP.png);
+  background-repeat:no-repeat;
+  background-position: 70px 30px;
+  height:385px;
 } 
 
 .homeIgm {
-    width:35px; 
     height:35px;
 }
 
@@ -26,7 +25,6 @@ height:385px;
     color:#781f1c; 
     margin-bottom: 5px;
     margin-top: 5px;
-    width:100%; 
     height:75px;
     border-radius:5px;
     text-align:left;
@@ -38,7 +36,6 @@ height:385px;
     background-color: white; 
     margin-bottom: 15px;
     margin-top: 15px;
-    width:100%; 
     height:75px;
     #border-radius:5px;
     text-align:center;
@@ -47,17 +44,13 @@ height:385px;
 
 
 .homeBtnTitle {
-    width: 180px; 
-    padding-left:15px;
     padding-top:10px;
     font-size: 22px;
     font-weight:bold;
 }
 
 .homeBtnText {
-    width: 240px; 
     margin-right: 0px; 
-    line-height:90%; 
     font-size: 12px; 
     color: gray;
     padding-left:10px;
@@ -65,8 +58,6 @@ height:385px;
 
 
 .migrNavBtn {
-    /*width:125px;*/
-    width:200px;
     font-size:18px; 
     text-align:center;
 }
@@ -77,14 +68,12 @@ height:385px;
 
 .mktBtn {
     color:white; 
-    background-color: DimGrey; 
+    background-color: #545454; 
     margin-bottom: 20px; 
-    width:200px; 
     height:75px;
-    #width:15em; 
-    #height:5em;
     border-radius:5px;
     float: right;
+    width: 90%;
 }
 
 .mktBtnTitle {
@@ -99,7 +88,6 @@ height:385px;
 
 
 .appDiv {
-    width:200px;
     float: left;
 }
 
@@ -108,7 +96,6 @@ height:385px;
     color:white; 
     background-color: LightSteelBlue; 
     margin-bottom: 5px; 
-    width:200px; 
     height:100px; 
     float: right;
     display: table-cell;
@@ -130,14 +117,12 @@ height:385px;
 }
 
 .cfgDiv {
-    #width:200px;
 }
 
 .cfgBtn {
     color:white; 
     background-color: LightSteelBlue; 
     margin-bottom: 5px; 
-    width:200px; 
     height:100px; 
     float: left;
     #clear: both;
@@ -166,12 +151,10 @@ height:385px;
 }
 
 .learnImg{
-    width:10px; 
     height: 10px;
 }
 
 .btnBarIcon {
-  width: 40px;
   height: 40px;
   float:left;
 }
@@ -193,7 +176,6 @@ height:385px;
 
 .discoverBtn {
     color:white; 
-    width:235px; 
     height:60px; 
     font-size:22px; 
     border-radius:5px; 
@@ -215,7 +197,5 @@ height:385px;
     background-color:#ECD9EC;
     border-bottom: #E5E5E5;
     border-right:#E5E5E5;
-}
-
-
+} 
 

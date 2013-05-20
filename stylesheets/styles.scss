@@ -1,5 +1,9 @@
 // I gather this file is a starting point for the project.
-@import "bootstrap";
+@import 'bootstrap';
 
 // Include responsive Bootstrap styles
-@import "bootstrap-responsive";
+@import 'bootstrap-responsive';
+
+// Our own styles
+@import 'docs';
+@import 'migration';
