@@ -1,17 +1,18 @@
 profiles:
   development:
     base_url: http://localhost:4242
-    metrics_base_url:  http://www.qa.redhat.com
+    metrics: false
     
   sandbox:
     base_url: http://people.redhat.com/~rsearls/rename
-    metrics_base_url:  http://www.qa.redhat.com
+    metrics: false
     
   staging:
     base_url: http://www.jboss.org/migration/staging
-    metrics_base_url:  http://www.stage.redhat.com
+    metrics: false
     
   production:
     base_url: http://www.jboss.org/migration
+    metrics: true
     metrics_base_url:  http://www.redhat.com
     google_analytics: UA-10656779-1

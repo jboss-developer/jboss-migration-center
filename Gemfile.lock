@@ -28,6 +28,7 @@ GEM
     haml (4.0.2)
       tilt
     json (1.7.7)
+    kramdown (1.0.2)
     listen (0.7.3)
     mime-types (1.23)
     nokogiri (1.5.9)
@@ -46,4 +47,5 @@ DEPENDENCIES
   awestruct (= 0.5.0)
   bootstrap-sass (~> 2.3.1.0)
   haml (~> 4.0.2)
+  kramdown (~> 1.0.1)
   rake (~> 10.0.4)

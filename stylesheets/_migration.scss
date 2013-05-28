@@ -1,157 +1,275 @@
-.homeTitle {
-    color:#781f1c;
+$titleColor: #781f1c;
+
+
+
+.tagLine {
+  color: $titleColor;
+  text-align:center;
 }
 
 .migrButtonBar {
-  background-color: gray;        
+  background-color: gray;    
 }
 
 .migrUl { 
-    list-style-image:url(/images/ChevronBullets.png);
+  list-style-image:url(/images/ChevronBullets.png);
 }
 
-#homeWallPaper {
-  background-image:url(/images/DeployonEAP.png);
-  background-repeat:no-repeat;
-  background-position: 70px 30px;
-  height:385px;
-} 
+.snippet {
+
+  h1 {
+    color: $titleColor;
+  }
+
+  a:not(.btn) {
+    line-height:11px;
+    background:url(../images/OpenOut.png)  center right no-repeat;
+    padding-right:20px;
+  } 
+
+}
+
+.home { 
+
+  .title {
+    color: $titleColor;
+  }
+
+  .preparation {
+
+    .wallpaper {
+      background-image:url(/images/DeployonEAP.png);
+      background-repeat:no-repeat;
+      background-position: 70px 30px;
+      height:385px;
+    }
+
+    h2 {
+      padding-top:10px;
+      font-size: 22px;
+      font-weight:bold;
+      padding-left: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      color:#781f1c;
+    }
+    
+    .btn {
+      height:75px;
+      text-align:left;
+      padding-left: 0px;
+    }
+
+    .spacer5 {
+      min-height: 5px;
+      padding: 0px;
+      .span2 {
+        min-height: 5px;
+      }
+    }
+
+    .spacer40 {
+      min-height: 40px;
+      padding: 0px;
+      .span2 {
+        min-height: 40px;
+      }
+    }
+
+    .spacer33 {
+      min-height: 33px;
+      padding: 0px;
+      .span2 {
+        min-height: 33px;
+      }
+      .span3 {
+        min-height: 33px;
+      }
+    }
+
+    .spacer62 {
+      min-height: 62px;
+      padding: 0px;
+      .span2 {
+        min-height: 62px;
+      }
+      .span3 {
+        min-height: 62px;
+      }
+    }
+
+    .vertical-arrow {
+      background: {
+        image: url(../images/vert_arrow.png);
+        repeat: repeat-y;
+        position: center;
+        clip: border-box;
+      }
+    }
+
+    .height60 {
+      min-height: 60px;
+    }
+
+    .end-arrow {
+      background: {
+        image: url(../images/end_arrow.png);
+        repeat:no-repeat; 
+        position: bottom left;
+        clip: border-box;
+      }
+      min-width:185px;
+      margin-left: 0px;
+    }
+
+    .curve-arrow {
+      background: {
+        image: url(../images/curve_arrow.png);
+        repeat: no-repeat;
+        position: center;
+        clip: border-box;
+      }
+
+    }
+
+    .deploy {
+      text-align: center;
+
+      h2 {
+        padding-top: 0px;
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+.secondary-buttons {
+
+  .btn {
+    width: 100%;
+    margin-top: 20px;
+    
+    h2 {
+      line-height:90%;
+      font-size: 22px;  
+    }
+
+    p {
+    }
+  }
+}
 
 .homeIgm {
-    height:35px;
+  height:35px;
 }
 
-.homePgBtn {
-    color:#781f1c; 
-    margin-bottom: 5px;
-    margin-top: 5px;
-    height:75px;
-    border-radius:5px;
-    text-align:left;
-}
+
 
 
 .deployBtn {
-    color:#781f1c; 
-    background-color: white; 
-    margin-bottom: 15px;
-    margin-top: 15px;
-    height:75px;
-    #border-radius:5px;
-    text-align:center;
-    font-size:30px;
+  color:#781f1c; 
+  background-color: white; 
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height:75px;
+  #border-radius:5px;
+  text-align:center;
+  font-size:30px;
 }
 
-
-.homeBtnTitle {
-    padding-top:10px;
-    font-size: 22px;
-    font-weight:bold;
-}
 
 .homeBtnText {
-    margin-right: 0px; 
-    font-size: 12px; 
-    color: gray;
-    padding-left:10px;
+  margin-right: 0px; 
+  font-size: 12px; 
+  color: gray;
+  padding-left:10px;
 }
 
 
 .migrNavBtn {
-    font-size:18px; 
-    text-align:center;
+  font-size:18px; 
+  text-align:center;
 }
 
 .migrDropdownMenu {
-    text-align:left;
-}
-
-.mktBtn {
-    color:white; 
-    background-color: #545454; 
-    margin-bottom: 20px; 
-    height:75px;
-    border-radius:5px;
-    float: right;
-    width: 90%;
+  text-align:left;
 }
 
 .mktBtnTitle {
-    line-height:90%;
-    font-size: 22px;
+  
 }
 
 .mktBtnText {
-    margin-top:0; 
-    line-height:90%;
+  margin-top:0; 
+  line-height:90%;
 }
 
 
 .appDiv {
-    float: left;
+  float: left;
 }
 
 
 .appBtn {
-    color:white; 
-    background-color: LightSteelBlue; 
-    margin-bottom: 5px; 
-    height:100px; 
-    float: right;
-    display: table-cell;
-    text-align:center;
+  color:white; 
+  background-color: LightSteelBlue; 
+  margin-bottom: 5px; 
+  height:100px; 
+  float: right;
+  display: table-cell;
+  text-align:center;
 }
 
 
 .appBtnTitle {
-    line-height:90%;
-    margin-top: 15px;
-    vertical-align: middle;
+  line-height:90%;
+  margin-top: 15px;
+  vertical-align: middle;
 }
 
 
 .appBtnText {
-    margin-top:0; 
-    line-height:90%;
-    font-size: small;
+  margin-top:0; 
+  line-height:90%;
+  font-size: small;
 }
 
 .cfgDiv {
 }
 
 .cfgBtn {
-    color:white; 
-    background-color: LightSteelBlue; 
-    margin-bottom: 5px; 
-    height:100px; 
-    float: left;
-    #clear: both;
-    
-    display: table-cell;
-    text-align:center;
+  color:white; 
+  background-color: LightSteelBlue; 
+  margin-bottom: 5px; 
+  height:100px; 
+  float: left;
+  #clear: both;
+  
+  display: table-cell;
+  text-align:center;
 }
 
 .cfgBtnTitle {
-    line-height:90%;
-    #margin-top: 30px;
-    vertical-align: middle;
+  line-height:90%;
+  #margin-top: 30px;
+  vertical-align: middle;
 }
 
 .cfgBtnText {
-    margin-top:0; 
-    line-height:90%;
-    font-size: small;
+  margin-top:0; 
+  line-height:90%;
+  font-size: small;
 }
 
 .dpyTitle {
-    color:white; 
-    background-color: DimGrey ;
-    margin-top: 0px;
-    text-align:center;
+  color:white; 
+  background-color: DimGrey ;
+  margin-top: 0px;
+  text-align:center;
 }
 
 .learnImg{
-    height: 10px;
+  height: 10px;
 }
 
 .btnBarIcon {
@@ -163,11 +281,11 @@
 /* tab settings */
 /*
 .tab-content {
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    border-top: 2px solid #ddd;
-    border-bottom: 2px solid #ddd;
-    padding: 10px;
+  border-left: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding: 10px;
 }
 
 */
@@ -175,27 +293,27 @@
 
 
 .discoverBtn {
-    color:white; 
-    height:60px; 
-    font-size:22px; 
-    border-radius:5px; 
-    margin-right:20px;
-    margin-left:20px;
-    margin-top:10px;
-    margin-bottom:10px;
+  color:white; 
+  height:60px; 
+  font-size:22px; 
+  border-radius:5px; 
+  margin-right:20px;
+  margin-left:20px;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 .discoverVisitBtn {
-    background-color:gray;
+  background-color:gray;
 }
 
 .discoverDwnLdBtn {
-    background-color:#781f1c;
+  background-color:#781f1c;
 }
 
 .discoverDwnLdBtnDisabled {
-    background-color:#ECD9EC;
-    border-bottom: #E5E5E5;
-    border-right:#E5E5E5;
+  background-color:#ECD9EC;
+  border-bottom: #E5E5E5;
+  border-right:#E5E5E5;
 } 
 

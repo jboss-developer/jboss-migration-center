@@ -10,6 +10,10 @@
     %link{:rel=>"shortcut icon", :href=>"#{site.base_url}/images/favicon.ico"}
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
+    %script{ :type=>'text/javascript', :src=>'javascripts/jquery.js' }
+    %script{ :type=>'text/javascript', :src=>'javascripts/bootstrap.min.js' }
+    %script{ :type=>'text/javascript', :src=>'javascripts/bootstrap-tooltip.js' }
+    %script{ :type=>'text/javascript', :src=>'javascripts/site.js'}
   %body 
     .container
       .row
@@ -24,26 +28,26 @@
                 %a.dropdown-toggle{:id=>"fran_drop", :href=>"#", :"data-toggle"=>"dropdown"}Learn<b class="caret"></b>
                 %ul.dropdown-menu.migrDropdownMenu{:role=>"menu", :"arialabledby"=>"fran_drop"}
                   %li
-                    %a{:href=>"#{site.base_url}/common/learn.html"}Learn JBoss EAP
+                    %a{:href=>"#{site.base_url}/learn"}Learn JBoss EAP
                   %li.divider
                   %li
-                    %a{:href=>"#{site.base_url}/common/migrationDrivers.html"}Why Migrate?
+                    %a{:href=>"#{site.base_url}/migration-drivers"}Why Migrate?
                   %li.divider
                   %li
-                    %a{:href=>"#{site.base_url}/common/migrationPlanning.html"}Migrate Planning Sheet 
+                    %a{:href=>"#{site.base_url}/migration-planning"}Migrate Planning Sheet 
               %li.migrNavBtn
-                %a{:href=>"#{site.base_url}/common/discover.html"}Discover 
+                %a{:href=>"#{site.base_url}/discover"}Discover 
               %li.dropdown.migrNavBtn
                 %a.dropdown-toggle{:id=>"fran_drop", :href=>"#", :"data-toggle"=>"dropdown"}Implement<b class="caret"></b>
                 %ul.dropdown-menu.migrDropdownMenu{:role=>"menu", :"arialabledby"=>"fran_drop"}
                   %li
-                    %a{:href=>"#{site.base_url}/common/implement.html", :role=>"menuitem"}Implement
+                    %a{:href=>"#{site.base_url}/implement", :role=>"menuitem"}Implement
                   %li.divider
                   %li
-                    %a{:href=>"#{site.base_url}/platforms/eap.html", :role=>"menuitem"}JBoss EAP
+                    %a{:href=>"#{site.base_url}/platforms/eap", :role=>"menuitem"}JBoss EAP
                   %li.divider
                   %li
-                    %a{:href=>"#{site.base_url}/platforms/weblogic.html", :role=>"menuitem"}Oracle weblogic
+                    %a{:href=>"#{site.base_url}/platforms/weblogic", :role=>"menuitem"}Oracle weblogic
       .row
         ~ content
       .row
@@ -53,57 +57,55 @@
             %a{:href=>"http://www.redhat.com/"}
               %img{:src=>"http://static.jboss.org/theme/images/common/redhat_logo.png"}
                 %p &copy; Red Hat Inc. #{Date.today.year}
-        - if site.google_analytics
+        - if site.metrics
           = google_analytics_async 
-      -# begin eloqua tracking
-      %script{ :type=>"text/javascript", :src=>"#{site.metrics_base_url}/j/elqNow/elqCfg.js"}
-      %script{ :type=>"text/javascript", :src=>"#{site.metrics_base_url}/j/elqNow/elqImg.js"}
-      -# end eloqua tracking
+          -# begin eloqua tracking
+          %script{ :type=>"text/javascript", :src=>"#{site.metrics_base_url}/j/elqNow/elqCfg.js"}
+          %script{ :type=>"text/javascript", :src=>"#{site.metrics_base_url}/j/elqNow/elqImg.js"}
+          -# end eloqua tracking
 
-      -# SiteCatalyst code version: H.25.4
-      -# Copyright 1996-2013 Adobe, Inc. All Rights Reserved
-      -# More info available at http://www.omniture.com
-      #oTags
-        %script{:type=>"text/javascript", :src=>"#{site.metrics_base_url}/j/s_code.js"}
-        :javascript
-          var coreUrl = encodeURI(document.URL.split("?")[0]);
-          var urlSplit = coreUrl.toLowerCase().split(/\//);
-          var urlLast = urlSplit[urlSplit.length-1];
-          var pageNameString = "";
-          var siteName = "";
-          var minorSectionIndex = 3
-          if (urlLast == "") {
-            urlSplit.splice(-1,1);
-          }
-          if (urlLast.search(/\./) >= 0) {
-            if (urlLast == "index.html") {
-              urlSplit.splice(-1,1);
-            }
-            else {
-              urlSplit[urlSplit.length-1] = urlLast.split(".").splice(0,1);
-            }
-          }
-          siteName = urlSplit[2].split(".")[1];
-          s.prop14 = s.eVar27 = siteName || "";
-          s.prop15 = s.eVar28 = urlSplit[minorSectionIndex] || "";
-          s.prop16 = s.eVar29 = urlSplit[minorSectionIndex+1] || "";
-          pageNameString = urlSplit.splice(3).join(" | ");
-          s.pageName = "jboss | developer | migration | " + pageNameString;
-          s.channel = "jboss | developer";
-          s.prop4 = s.eVar23 = encodeURI(document.URL);
-          s.prop21 = s.eVar18 = coreUrl;
-          s.prop2 = s.eVar22 = "en";
-          s.prop3 = s.eVar19 = "us";
+          -# SiteCatalyst code version: H.25.4
+          -# Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+          -# More info available at http://www.omniture.com
+          #oTags
+            %script{:type=>"text/javascript", :src=>"#{site.metrics_base_url}/j/s_code.js"}
+            :javascript
+              var coreUrl = encodeURI(document.URL.split("?")[0]);
+              var urlSplit = coreUrl.toLowerCase().split(/\//);
+              var urlLast = urlSplit[urlSplit.length-1];
+              var pageNameString = "";
+              var siteName = "";
+              var minorSectionIndex = 3
+              if (urlLast == "") {
+                urlSplit.splice(-1,1);
+              }
+              if (urlLast.search(/\./) >= 0) {
+                if (urlLast == "index.html") {
+                  urlSplit.splice(-1,1);
+                }
+                else {
+                  urlSplit[urlSplit.length-1] = urlLast.split(".").splice(0,1);
+                }
+              }
+              siteName = urlSplit[2].split(".")[1];
+              s.prop14 = s.eVar27 = siteName || "";
+              s.prop15 = s.eVar28 = urlSplit[minorSectionIndex] || "";
+              s.prop16 = s.eVar29 = urlSplit[minorSectionIndex+1] || "";
+              pageNameString = urlSplit.splice(3).join(" | ");
+              s.pageName = "jboss | developer | migration | " + pageNameString;
+              s.channel = "jboss | developer";
+              s.prop4 = s.eVar23 = encodeURI(document.URL);
+              s.prop21 = s.eVar18 = coreUrl;
+              s.prop2 = s.eVar22 = "en";
+              s.prop3 = s.eVar19 = "us";
 
-        %script{:type=>"text/javascript", :src=>"#{site.metrics_base_url}/j/rh_omni_footer.js"}
-        %script{:type=>"text/javascript", :language=>"JavaScript"}
-          if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
-        %noscript
-          %a{:href=>"http://www.omniture.com", :title=>"Web Analytics"}
-            %img{:src=>"https://smtrcs.redhat.com/b/ss/redhatcom,redhatglobal/1/H.25.4--NS/0?[AQB]&cdp=3&[AQE]",
-            :height=>"1", :width=>"1", :border=>"0", :alt=>""}
+            %script{:type=>"text/javascript", :src=>"#{site.metrics_base_url}/j/rh_omni_footer.js"}
+            %script{:type=>"text/javascript", :language=>"JavaScript"}
+              if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+            %noscript
+              %a{:href=>"http://www.omniture.com", :title=>"Web Analytics"}
+                %img{:src=>"https://smtrcs.redhat.com/b/ss/redhatcom,redhatglobal/1/H.25.4--NS/0?[AQB]&cdp=3&[AQE]",
+                :height=>"1", :width=>"1", :border=>"0", :alt=>""}
 
-    -# End SiteCatalyst code version: H.25.4
+        -# End SiteCatalyst code version: H.25.4
     -# Uncomment script tags (remove leading -#) when you're ready to use behaviors
-    %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js' }
-    %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js' }
