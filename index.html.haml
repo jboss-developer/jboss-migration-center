@@ -2,9 +2,6 @@
 layout: base
 ---
 
-:javascript
-  $().tooltip();
-
 .tagLine
   = snippet "home/tagline.md"
     
@@ -24,7 +21,7 @@ layout: base
             .span3
               %h4 Server Preparation 
           <!-- ########## middle buttons ########## -->
-          %a.btn(href="/learn")
+          %a.btn(href="learn")
             .row
               .span2
                 :markdown
@@ -39,7 +36,7 @@ layout: base
                   Learn about what server capabilities are provided in EAP 
           .row.spacer5
             .span2.vertical-arrow.hidden-phone
-          %a.btn(href="/discover")
+          %a.btn(href="discover")
             .row
               .span2
                 :markdown
@@ -53,7 +50,7 @@ layout: base
                   Identify the JBoss EAP equivalent capabilities to support your application.
           .row.spacer5
             .span2.vertical-arrow.hidden-phone
-          %a.btn(href="/implement")
+          %a.btn(href="implement")
             .row
               .span2
                 :markdown
@@ -84,7 +81,7 @@ layout: base
       %a.btn.btn-inverse(href="migration-drivers")
         = snippet "home/why_migrate.md"
     .row
-      %a.btn.btn-inverse(href="/migration-planning")
+      %a.btn.btn-inverse(href="migration-planning")
         = snippet "home/planning_sheet.md"
          
     .row
