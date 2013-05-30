@@ -22,7 +22,7 @@ module Awestruct
 
             id = path.gsub(/[\/\.]/, "_")
 
-            "<div id=\"#{id}\" data-title=\"Snippet: _snippets/#{path}\" data-toggle=\"tooltip\" data-delay=\"500\" class=\"snippet\">\n#{page.content}\n</div>\n<script type=\"text/javascript\">$.activateSnippetIdTooltip('#{id}');</script>"
+            "<div id=\"#{id}\" data-title=\"Snippet: _snippets/#{path}\" data-toggle=\"tooltip\" data-delay=\"500\" class=\"snippet\">\n#{page.content}\n</div>\n<script type=\"text/javascript\">activateSnippetIdTooltip('#{id}');</script>"
           end
 
         end

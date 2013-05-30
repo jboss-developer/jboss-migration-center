@@ -10,10 +10,9 @@
     %link{:rel=>"shortcut icon", :href=>"#{site.base_url}/images/favicon.ico"}
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
-    %script{ :type=>'text/javascript', :src=>'javascripts/jquery.js' }
-    %script{ :type=>'text/javascript', :src=>'javascripts/bootstrap.min.js' }
-    %script{ :type=>'text/javascript', :src=>'javascripts/bootstrap-tooltip.js' }
-    %script{ :type=>'text/javascript', :src=>'javascripts/site.js'}
+    :javascript
+      window.jQuery || document.write( '<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"><\/script>' )
+      window.jQuery || document.write( '<script src="#{site.base_url}/javascripts/site.js"><\/script>' )
   %body 
     .container
       .row
@@ -23,7 +22,7 @@
           .navbar-inner
             %ul.nav 
               %li.migrNavBtn
-                %a{:href=>"/"}Home 
+                %a{:href=>"#{site.base_url}"}Home 
               %li.dropdown.migrNavBtn
                 %a.dropdown-toggle{:id=>"fran_drop", :href=>"#", :"data-toggle"=>"dropdown"}Learn<b class="caret"></b>
                 %ul.dropdown-menu.migrDropdownMenu{:role=>"menu", :"arialabledby"=>"fran_drop"}
@@ -57,6 +56,8 @@
             %a{:href=>"http://www.redhat.com/"}
               %img{:src=>"http://static.jboss.org/theme/images/common/redhat_logo.png"}
                 %p &copy; Red Hat Inc. #{Date.today.year}
+        %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js' }
+        %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap-tooltip.js" }
         - if site.metrics
           = google_analytics_async 
           -# begin eloqua tracking

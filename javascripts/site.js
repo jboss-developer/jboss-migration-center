@@ -7,8 +7,10 @@ $.urlParam = function(name){
     return results[1] || 0;
 }
 
-$.activateSnippetIdTooltip = function(id) {
-    if ($.urlParam('activateSnippetIds') == "true") {
-        $('#' + id).tooltip();
-    }
+activateSnippetIdTooltip = function(id) {
+    $(function() {
+        if ($.urlParam('activateSnippetIds') == "true") {
+            $('#' + id).tooltip();
+        }
+    });
 }
