@@ -1,5 +1,6 @@
 JBoss EAP 6 is based upon a new server architecture and there are new implementations of several JBoss Enterprise Application Platform components. Here are the areas to which you will want to pay particular attention as you migrate your applications.  
 
+
 Application
 -----------
 
