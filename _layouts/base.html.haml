@@ -24,11 +24,8 @@
               %li.migrNavBtn
                 %a{:href=>"#{site.base_url}"}Home 
               %li.dropdown.migrNavBtn
-                %a.dropdown-toggle{:id=>"fran_drop", :href=>"#", :"data-toggle"=>"dropdown"}Learn<b class="caret"></b>
+                %a.dropdown-toggle{:id=>"fran_drop", :href=>"#{site.base_url}/learn", :"data-toggle"=>"dropdown"}Learn<b class="caret"></b>
                 %ul.dropdown-menu.migrDropdownMenu{:role=>"menu", :"arialabledby"=>"fran_drop"}
-                  %li
-                    %a{:href=>"#{site.base_url}/learn"}Learn JBoss EAP
-                  %li.divider
                   %li
                     %a{:href=>"#{site.base_url}/migration-drivers"}Why Migrate?
                   %li.divider
@@ -37,11 +34,8 @@
               %li.migrNavBtn
                 %a{:href=>"#{site.base_url}/discover"}Discover 
               %li.dropdown.migrNavBtn
-                %a.dropdown-toggle{:id=>"fran_drop", :href=>"#", :"data-toggle"=>"dropdown"}Implement<b class="caret"></b>
+                %a.dropdown-toggle{:id=>"fran_drop", :href=>"#{site.base_url}/implement", :"data-toggle"=>"dropdown"}Implement<b class="caret"></b>
                 %ul.dropdown-menu.migrDropdownMenu{:role=>"menu", :"arialabledby"=>"fran_drop"}
-                  %li
-                    %a{:href=>"#{site.base_url}/implement", :role=>"menuitem"}Implement
-                  %li.divider
                   %li
                     %a{:href=>"#{site.base_url}/platforms/eap", :role=>"menuitem"}JBoss EAP
                   %li.divider
@@ -55,7 +49,6 @@
           %div.redhatlogo{:style=>"text-align:center;"}
             %a{:href=>"http://www.redhat.com/"}
               %img{:src=>"http://static.jboss.org/theme/images/common/redhat_logo.png"}
-                %p &copy; Red Hat Inc. #{Date.today.year}
         %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js' }
         %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap-tooltip.js" }
         - if site.metrics
