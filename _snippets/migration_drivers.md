@@ -15,7 +15,7 @@ In addition to changing business requirements, there are many more motivations b
 	</tr>
 	<tr>
 		<td>Cost reduction: </td>
-		<td>Moving from  proprietary technologies that require high licensing fees, to the Red Hat JBoss Enterprise Application Platform subscription provides organizations with substantially lower up-front costs and lower overall TCO</td>		
+		<td>Moving from  proprietary technologies that require high licensing fees, to the Red Hat JBoss Enterprise Application Platform subscription provides organizations with substantially lower up-front costs and lower overall TCO.</td>		
 		
 	</tr>
 	<tr>
@@ -24,34 +24,31 @@ In addition to changing business requirements, there are many more motivations b
 		
 	</tr>
 	<tr>
-		<td>John</td>
-		<td>Doe</td>		
-		<td>80</td>
+		<td>Vendor lock-in:</td>
+		<td>A lack of up-front licensing costs, combined with open standards compliance ensures that organizations are not locked into a single vendor and gives you the flexibility to take back ownership of your IT environment.</td>		
+		
 	</tr>
 	<tr>
-		<td>Adam</td>
-		<td>Johnson</td>		
-		<td>67</td>
+		<td>Technology Innovation with out sacrificing Security and stability: </td>
+		<td>Red Hat JBoss Enterprise Application Platform provides both innovation (Software developed by a vibrant open source community) and security and stability (testing, certification, documentation, training, and support expected from mature enterprise software products). </td>		
+		
+	</tr>
+		<tr>
+		<td>Corporate mandate </td>
+		<td>Mergers, acquisitions, and the need to replace retiring or discontinued software often require organizations to migrate their applications.  NEED A BETTER ANSWER HERE </td>		
+		
 	</tr>
 </table>
-
-* Cost reduction
-* Conformance to standards
-* Datacenter consolidation
-* Expanding business requirements
-* Leveraging new technologies
-* Mergers and acquisitions
-* Replacement of retiring or discontinued software
-* Capacity planning and performance
-* Security and stability 
 
 
 
 In many cases, a combination of motivations drive server migrations. Whereas no single motivation may be sufficient to warrant the move, the sum of the business objectives may be enough to justify the migration. In other cases, a single driver (such as cost savings) is greatly desired (or required) and sufficient to justify the migration.  
 
-Whatever the particular drivers are, it is important to bear them in mind when planning migrations. Drivers help dictate priorities and methods when migrating. They are key to determining which migration scenario applies and how it should be deployed. For example, if a major driver is the desire to benefit from the latest features and capabilities, the migration project will need to delineate the features desired and determine which can be achieved by changing configurations and which will require updating source code.  
 
-An organization considering a Java EE server migration should carefully examine the motivation or combination of motivations behind the decision. These motivations have a potential impact on the strategic migration planning process.  They can influence the migration opportunities, choices, and trade-offs that must be made in the process. It is also important to understand the types of migrations that are possible as well as the potential deployment scenarios, as these may help proactively identify roadblocks and anticipate future needs. 
+A successful and smooth migration to JBoss requires a strategic level of up-front planning and a proper understanding of the issues and challenges involved in order to minimize migration risks and costs. It is also important to understand the types of migrations that are possible as well as the potential deployment scenarios, as these may help proactively identify roadblocks and anticipate future needs. 
+
+
+Whatever the particular drivers are, it is important to bear them in mind when planning migrations. Drivers help dictate priorities and methods when migrating. They are key to determining which migration scenario applies and how it should be deployed. For example, if a major driver is the desire to benefit from the latest features and capabilities, the migration project will need to delineate the features desired and determine which can be achieved by changing configurations and which will require updating source code.  
 
 Potential Migration Scenarios
 -----------------------------
