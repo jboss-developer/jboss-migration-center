@@ -1,6 +1,14 @@
-What platforms can I migrate from?
-----------------------------------
+Find information on the following platforms:
+--------------------------------------------
 * [Oracle WebLogic](platforms/weblogic)
 * [Older versions of JBoss EAP](platforms/eap)
-* Coming soon! IBM Websphere, Apache Tomcat and Glassfish
+* [JBoss AS](platforms/eap)
+
+
+Coming Soon:
+--------------------------------------------
+* IBM WebSphere
+* Apache Tomcat
+* Glassfish
+
 
