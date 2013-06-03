@@ -15,14 +15,14 @@ In addition to changing business requirements, there are many more motivations b
 	
 	</tr>
 	<tr>
-		<td>Jill</td>
-		<td>Smith</td>		
-		<td>50</td>
+		<td>Cost reduction: </td>
+		<td>Moving from  proprietary technologies that require high licensing fees, to the Red Hat JBoss Enterprise Application Platform subscription provides organizations with substantially lower up-front costs and lower overall TCO</td>		
+		
 	</tr>
 	<tr>
-		<td>Eve</td>
-		<td>Jackson</td>		
-		<td>94</td>
+		<td>Standards compliance:</td>
+		<td>Not only has JBoss been a strong supporter of open standards, it has been instrumental in driving a lot of the innovation around open standard enterprise Java, including JPA, JSF, EJB, and CDI. Basing your infrastructure on an open implementation of open standards removes a great deal of risk when choosing a platform for the future.</td>		
+		
 	</tr>
 	<tr>
 		<td>John</td>
