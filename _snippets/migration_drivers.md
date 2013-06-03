@@ -7,8 +7,8 @@ Oftentimes the  best way to handle these new requirements is to migrate critical
 
 In addition to changing business requirements, there are many more motivations behind an organization's decision to undertake a Java EE server migration.   Common reasons for server migration include: 
 
-Migration Driver
-----------------
+<b>Migration Driver</b>
+
 
 * Cost reduction
 * Conformance to standards
