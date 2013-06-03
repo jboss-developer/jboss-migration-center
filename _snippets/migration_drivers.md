@@ -8,11 +8,11 @@ Oftentimes the  best way to handle these new requirements is to migrate critical
 In addition to changing business requirements, there are many more motivations behind an organization's decision to undertake a Java EE server migration.   Common reasons for server migration include: 
 
 <b>Migration Driver</b>
-<table border="1" cellpadding="3">
+<table border="0" cellpadding="3">
  <tr>
-		<th>First Name</th>
-		<th>Last Name</th>		
-		<th>Points</th>
+		<th>Migration Driver</th>
+		<th>How Red Hat JBoss helps</th>		
+	
 	</tr>
 	<tr>
 		<td>Jill</td>
