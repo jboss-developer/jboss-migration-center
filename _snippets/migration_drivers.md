@@ -1,9 +1,14 @@
 Migration Drivers
 =================
 
-An organization considering a Java EE server migration should carefully examine the motivation or combination of motivations behind the decision. These motivations have a potential impact on the strategic migration planning process.  They can influence the migration opportunities, choices, and trade-offs that must be made in the process. It is also important to understand the types of migrations that are possible as well as the potential deployment scenarios, as these may help proactively identify roadblocks and anticipate future needs.  
+Business requirements today are constantly changing and evolving, often in unpredictable ways. Legacy technologies, while good in their day, can limit flexibility, and scalability, and impact the speed in which an IT organization's ability to respond quickly. Today, time to productivity is especially critical. 
 
-Common drivers deal with cost, increasing development innovation, and expanding business requirements.  Here is a list of the most common reasons for server migration.  
+Oftentimes the  best way to handle these new requirements is to migrate critical applications to a modern IT environment. 
+
+In addition to changing business requirements, there are many more motivations behind an organization's decision to undertake a Java EE server migration.   Common reasons for server migration include: 
+
+Migration Driver
+----------------
 
 * Cost reduction
 * Conformance to standards
@@ -15,9 +20,13 @@ Common drivers deal with cost, increasing development innovation, and expanding 
 * Capacity planning and performance
 * Security and stability 
 
+
+
 In many cases, a combination of motivations drive server migrations. Whereas no single motivation may be sufficient to warrant the move, the sum of the business objectives may be enough to justify the migration. In other cases, a single driver (such as cost savings) is greatly desired (or required) and sufficient to justify the migration.  
 
 Whatever the particular drivers are, it is important to bear them in mind when planning migrations. Drivers help dictate priorities and methods when migrating. They are key to determining which migration scenario applies and how it should be deployed. For example, if a major driver is the desire to benefit from the latest features and capabilities, the migration project will need to delineate the features desired and determine which can be achieved by changing configurations and which will require updating source code.  
+
+An organization considering a Java EE server migration should carefully examine the motivation or combination of motivations behind the decision. These motivations have a potential impact on the strategic migration planning process.  They can influence the migration opportunities, choices, and trade-offs that must be made in the process. It is also important to understand the types of migrations that are possible as well as the potential deployment scenarios, as these may help proactively identify roadblocks and anticipate future needs. 
 
 Potential Migration Scenarios
 -----------------------------
