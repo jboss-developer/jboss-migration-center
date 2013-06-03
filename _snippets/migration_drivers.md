@@ -1,7 +1,7 @@
 Migration Drivers
 =================
 
-Business requirements today are constantly changing and evolving, often in unpredictable ways. Legacy technologies, while good in their day, can limit flexibility, and scalability, and impact an IT organization's ability to respond quickly. Today, time to productivity is especially critical. 
+Business requirements today are constantly changing and evolving, often in unpredictable ways. Legacy technologies, while good in their day, can limit flexibility, and scalability, and can impact an IT organization's ability to respond quickly. Today, time to productivity is especially critical. 
 
 Oftentimes the  best way to handle these new requirements is to migrate critical applications to a modern IT environment. 
 
