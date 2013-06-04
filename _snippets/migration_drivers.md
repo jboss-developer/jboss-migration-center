@@ -10,7 +10,7 @@ In addition to changing business requirements, there are many more motivations b
 <table  cellpadding="3">
  <tr>
 		<th>Migration Driver</th>
-		<th>How Red Hat JBoss helps</th>		
+		<th>Red Hat Can Help</th>		
 	
 	</tr>
 	<tr>
