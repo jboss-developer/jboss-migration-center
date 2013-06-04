@@ -34,8 +34,8 @@ In addition to changing business requirements, there are many more motivations b
 		
 	</tr>
 		<tr>
-		<td>Corporate mandate </td>
-		<td>Mergers, acquisitions, and the need to replace retiring or discontinued software often require organizations to migrate their applications.  NEED A BETTER ANSWER HERE </td>		
+		<td>Corporate mandate for change:</td>
+		<td>Many organizations, (corporations, local or federal governments, etc.), mandate technological changes, often after mergers or acquisitions mandate,   or to replace retiring or discontinued software.  With the the tools, guides and documentation in this Migration Center, organizations can quickly and easily assess the effort needed to migrate their applications and IT infrastructure to Red Hat JBoss Enterprise Application Platform quickly, efficiently and for less cost than proprietary solutions. </td>		
 		
 	</tr>
 </table>
