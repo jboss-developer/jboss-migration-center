@@ -10,7 +10,7 @@ Windup is a tool to simplify Java application migrations. Running from the comma
 
 <div class="row product-links">
   <div class="span4 pagination-centered">
-    <img src="#{site.base_url}/images/windup-logo-wiki-header.jpg" />
+    <img src="http://static.jboss.org/images/windup/windup-logo.png" />
   </div>
   <div class="span4 pagination-centered">
     <a href="http://windup.jboss.org/download.html" class="btn btn-danger">Download Windup</a>
