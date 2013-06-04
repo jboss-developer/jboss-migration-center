@@ -55,7 +55,7 @@ Potential Migration Scenarios
 
 <b>Basic Web Application Migration</b>
 
-Migrating basic web applications that were developed according to the servlet specification and Java EE specifications is the easiest and most cost-effective way to start migrations. It can be an excellent measure of the effort involved. If the applications were developed with a standards-based Integrated Development Environment (IDE) such as Eclipse, this will go quite smoothly. Many proprietary IDEs embed links to proprietary libraries and thus can add additional challenges to migration.
+The easiest and most cost-effective way to start your migration is to migrate basic web applications that were developed according to the servlet specification and Java EE specifications. It can be an excellent measure of the effort involved. If the applications were developed with a standards-based Integrated Development Environment (IDE) such as Eclipse, this will go quite smoothly. Be aware, howeve, that many proprietary IDEs embed links to proprietary libraries and thus can add additional challenges to migration.
  
   Migrating a web application that is developed and deployed to a specific application server can be very simple or somewhat complicated depending on how proprietary the application architecture and dependencies are. Many web applications can simply be copied over and directly deployed to JBoss with no changes at all.  
 
