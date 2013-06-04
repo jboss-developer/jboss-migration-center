@@ -68,8 +68,8 @@ Java EE Migration
 Successfully Migrated Customers 
 -------------------------------
 
-* [Sprint Nextel](http://www.redhat.com/jboss/getunstuck/converts.html)
-* [Mazda Austria](http://www.redhat.com/jboss/getunstuck/converts.html)
-* [Heidelberg DRUCKMASCHINEN AG](http://www.redhat.com/jboss/getunstuck/converts.html)
+* [Sprint Nextel Makes the Right Call by Replacing Costly Proprietary Middleware with Red Hat JBoss  Middleware j](https://www.redhat.com/resourcelibrary/case-studies/sprint-makes-right-call-by-replacing-proprietary-with-jboss-middleware)
+* [Mazda Austria Standardizes its Online Used Car Exchange on JBoss Enterprise Application Platform](https://www.redhat.com/resourcelibrary/case-studies/mazda-austria-standardizes-its-online-used-car-exchange-on-jboss-enterprise-application-platform)
+* [Stater Increases Stability and Performance of Mission-Critical Applications with JBoss Enterprise Application Platform ](https://www.redhat.com/resourcelibrary/case-studies/stater-further-increases-stability-with-jboss)
 * [Travel Channel](http://www.redhat.com/jboss/getunstuck/converts.html)
 
