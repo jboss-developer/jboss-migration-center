@@ -13,10 +13,10 @@ Windup is a tool to simplify Java application migrations. Running from the comma
     <img src="http://static.jboss.org/images/windup/windup-logo.png" />
   </div>
   <div class="span4 pagination-centered">
-    <a href="http://windup.jboss.org/download.html" class="btn btn-danger">Download Windup</a>
+    <a href="http://windup.jboss.org/download.html" class="btn btn-discover">Download Windup</a>
   </div>
   <div class="span4 pagination-centered">
-    <a href="http://windup.jboss.org/" class="btn btn-danger">Vist jboss.windup.org</a>
+    <a href="http://windup.jboss.org/" class="btn btn-discover">Vist jboss.windup.org</a>
   </div>
 </div>
 
@@ -31,10 +31,10 @@ The focus of this tool is to discover and copy EAP 5 application server configur
     <img src="" />
   </div>
   <div class="span4 pagination-centered">
-    <a href="" class="btn btn-danger">???</a>
+    <a href="" class="btn btn-discover">???</a>
   </div>
   <div class="span4 pagination-centered">
-    <a href="http://github.com/OndraZizka/jboss-migration" class="btn btn-danger">Vist github.com/OndraZizka/jboss-migration</a>
+    <a href="http://github.com/OndraZizka/jboss-migration" class="btn btn-discover">Vist github.com/OndraZizka/jboss-migration</a>
   </div>
 </div>
 

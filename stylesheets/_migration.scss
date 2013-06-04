@@ -1,6 +1,7 @@
 $titleColor: #781f1c;
 
-
+$btnDiscoverBackground: #992913;
+$btnDiscoverBackgroundHighlight: #781f1c;
 
 .tagLine {
   color: $titleColor;
@@ -27,6 +28,13 @@ $titleColor: #781f1c;
     padding-right:20px;
   } 
 
+}
+
+// Discover buttons are custom for the migration center based on crobson's styling
+.btn-discover {
+  @include buttonBackground($btnDiscoverBackground, $btnDiscoverBackgroundHighlight);
+  font-size: 20px;
+  padding: 14px;
 }
 
 .home { 
