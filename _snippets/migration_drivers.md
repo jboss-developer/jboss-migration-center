@@ -53,15 +53,15 @@ Whatever the particular drivers are, it is important to bear them in mind when p
 Potential Migration Scenarios
 -----------------------------
 
-Basic Web Appplication Migration
+Basic Web Appplication Migration:
 
-: Migrating basic web applications that were developed according to the servlet specification and Java EE specifications is the easiest and most cost-effective way to start migrations. It can be an excellent measure of the effort involved. If the applications were developed with a standards-based Integrated Development Environment (IDE) such as Eclipse, this will go quite smoothly. Many proprietary IDEs embed links to proprietary libraries and thus can add additional challenges to migration.
+Migrating basic web applications that were developed according to the servlet specification and Java EE specifications is the easiest and most cost-effective way to start migrations. It can be an excellent measure of the effort involved. If the applications were developed with a standards-based Integrated Development Environment (IDE) such as Eclipse, this will go quite smoothly. Many proprietary IDEs embed links to proprietary libraries and thus can add additional challenges to migration.
  
   Migrating a web application that is developed and deployed to a specific application server can be very simple or somewhat complicated depending on how proprietary the application architecture and dependencies are. Many web applications can simply be copied over and directly deployed to JBoss with no changes at all.  
 
-Java EE Migration
+Java EE Migration:
 
-: Migrating Java EE applications is in theory no more difficult than migrating pure web applications. However, the purpose of Java EE specifications is to facilitate the integration of multiple frameworks with diverse functionalities. This means that there will in practice be many mini-migrations involved.  
+  Migrating Java EE applications is in theory no more difficult than migrating pure web applications. However, the purpose of Java EE specifications is to facilitate the integration of multiple frameworks with diverse functionalities. This means that there will in practice be many mini-migrations involved.  
 
   If proprietary IDEs are used in the development of Java EE applications, these will often have the generated classes extend and implement proprietary classes and interfaces.  
 
