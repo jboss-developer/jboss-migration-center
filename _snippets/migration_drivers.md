@@ -68,8 +68,8 @@ Java EE Migration
 Successfully Migrated Customers 
 -------------------------------
 
-* [Sprint Nextel Makes the Right Call by Replacing Costly Proprietary Middleware with Red Hat JBoss  Middleware j](https://www.redhat.com/resourcelibrary/case-studies/sprint-makes-right-call-by-replacing-proprietary-with-jboss-middleware)
+* [Sprint Nextel Makes the Right Call by Replacing Costly Proprietary Middleware with Red Hat JBoss  Middleware](https://www.redhat.com/resourcelibrary/case-studies/sprint-makes-right-call-by-replacing-proprietary-with-jboss-middleware)
 * [Mazda Austria Standardizes its Online Used Car Exchange on JBoss Enterprise Application Platform](https://www.redhat.com/resourcelibrary/case-studies/mazda-austria-standardizes-its-online-used-car-exchange-on-jboss-enterprise-application-platform)
 * [Stater Increases Stability and Performance of Mission-Critical Applications with JBoss Enterprise Application Platform ](https://www.redhat.com/resourcelibrary/case-studies/stater-further-increases-stability-with-jboss)
-* [Travel Channel](http://www.redhat.com/jboss/getunstuck/converts.html)
+* [Panthera Capital’s CFD Trading Platform Achieves Improved Reliability, Performance, and Scalability After Migration to Red Hat ](http://www.redhat.com/resourcelibrary/case-studies/panthera-capitals-cfd-trading-platform-achieves-improved-reliability)
 
