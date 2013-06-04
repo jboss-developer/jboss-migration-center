@@ -53,7 +53,7 @@ Whatever the particular drivers are, it is important to bear them in mind when p
 Potential Migration Scenarios
 -----------------------------
 
-<b>Basic Web Appplication Migration:</b>
+<b>Basic Web Application Migration:</b>
 
 Migrating basic web applications that were developed according to the servlet specification and Java EE specifications is the easiest and most cost-effective way to start migrations. It can be an excellent measure of the effort involved. If the applications were developed with a standards-based Integrated Development Environment (IDE) such as Eclipse, this will go quite smoothly. Many proprietary IDEs embed links to proprietary libraries and thus can add additional challenges to migration.
  
