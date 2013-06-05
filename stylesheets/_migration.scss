@@ -8,26 +8,15 @@ $btnDiscoverBackgroundHighlight: #781f1c;
   text-align:center;
 }
 
-.migrButtonBar {
-  background-color: gray;    
-}
-
-.migrUl { 
-  list-style-image:url(/images/ChevronBullets.png);
-}
-
-.snippet {
-
+.snippet { 
   h1 {
-    color: $titleColor;
+    color: $titleColor; 
   }
-
   a:not(.btn) {
     line-height:11px;
     background:url(../images/OpenOut.png)  center right no-repeat;
     padding-right:20px;
   } 
-
 }
 
 // Discover buttons are custom for the migration center based on crobson's styling
@@ -38,162 +27,54 @@ $btnDiscoverBackgroundHighlight: #781f1c;
 }
 
 .home { 
-
   .title {
     color: $titleColor;
   }
+}
 
-  .preparation {
-    min-height: 1px;
-    max-height: 90%;
-    background: url(../images/vert_arrow.png) 8em repeat-y; 
-    .wallpaper {
-      background-image:url(/images/DeployonEAP.png);
-      background-repeat:no-repeat;
-      background-position: 70px 30px;
-      height:385px;
-    } 
-    h2 {
-      padding-top:10px;
-      font-size: 22px;
-      font-weight:bold;
-      padding-left: 10px;
-      text-align: center;
-      text-transform: uppercase;
-      color:#781f1c;
-    } 
-    .btn {
-      height:75px;
-      text-align:left;
-      padding-left: 0px;
-      margin-left: 0px;
-    }
-
-    .spacer5 {
-      min-height: 5px;
-      padding: 0px;
-      .span2 {
-        min-height: 5px;
-      }
-    }
-
-    .spacer40 {
-      min-height: 40px;
-      padding: 0px;
-      .span2 {
-        min-height: 40px;
-      }
-    }
-
-    .spacer33 {
-      min-height: 33px;
-      padding: 0px;
-      .span2 {
-        min-height: 33px;
-      }
-      .span3 {
-        min-height: 33px;
-      }
-    }
-
-    .spacer62 {
-      min-height: 62px;
-      padding: 0px;
-      .span2 {
-        min-height: 62px;
-      }
-      .span3 {
-        min-height: 62px;
-      }
-    }
-
-    .vertical-arrow {
-      background: {
-        image: url(../images/vert_arrow.png);
-        repeat: repeat-y;
-        position: center;
-        clip: border-box;
-      }
-    }
-
-    .height60 {
-      min-height: 60px;
-    }
-
-    .end-arrow {
-      background: {
-        image: url(../images/end_arrow.png);
-        repeat:no-repeat; 
-        position: bottom left;
-        clip: border-box;
-      }
-      min-width:185px;
-      margin-left: 0px;
-    }
-
-    .curve-arrow {
-      background: {
-        image: url(../images/curve_arrow.png);
-        repeat: no-repeat;
-        position: center;
-        clip: border-box;
-      }
-
-    }
-
-    .deploy {
-      text-align: center; 
-      background: image-url("bottom_arrow.png") 7.9em -1px no-repeat white;
-      padding-left: 15em;
-      & > h2 {
-        padding-top: 0px;
-        margin-top: 0px;
-      }
-    }
+.preparation {
+  min-height: 1px;
+  max-height: 90%;
+  background: url(../images/vert_arrow.png) 8em repeat-y; 
+  @media (max-width: 768px) {
+    background: white; 
+  } 
+  h2 {
+    padding-top:10px;
+    font-size: 22px;
+    font-weight:bold;
+    padding-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color:#781f1c;
+  } 
+  .btn {
+    height:75px;
+    text-align:left;
+    padding-left: 0px;
+    margin-left: 0px;
   }
 }
 
-.secondary-buttons {
+.deploy {
+  text-align: center; 
+  background: url("../images/bottom_arrow.png") 7.9em -1px no-repeat white;
+  padding-left: 15em;
+  & > h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+}
 
+.secondary-buttons { 
   .btn {
-    margin-top: 20px;
-    
+    margin-top: 20px; 
     h2 {
       line-height:90%;
       font-size: 22px;  
-    }
-
-    p {
-    }
+    } 
   }
-}
-
-.homeIgm {
-  height:35px;
-}
-
-
-
-
-.deployBtn {
-  color:#781f1c; 
-  background-color: white; 
-  margin-bottom: 15px;
-  margin-top: 15px;
-  height:75px;
-  #border-radius:5px;
-  text-align:center;
-  font-size:30px;
-}
-
-
-.homeBtnText {
-  margin-right: 0px; 
-  font-size: 12px; 
-  color: gray;
-  padding-left:10px;
-}
-
+} 
 
 .migrNavBtn {
   font-size:18px; 
@@ -204,88 +85,10 @@ $btnDiscoverBackgroundHighlight: #781f1c;
   text-align:left;
 }
 
-.mktBtnTitle {
-  
-}
-
 .mktBtnText {
   margin-top:0; 
   line-height:90%;
-}
-
-
-.appDiv {
-  float: left;
-}
-
-
-.appBtn {
-  color:white; 
-  background-color: LightSteelBlue; 
-  margin-bottom: 5px; 
-  height:100px; 
-  float: right;
-  display: table-cell;
-  text-align:center;
-}
-
-
-.appBtnTitle {
-  line-height:90%;
-  margin-top: 15px;
-  vertical-align: middle;
-}
-
-
-.appBtnText {
-  margin-top:0; 
-  line-height:90%;
-  font-size: small;
-}
-
-.cfgDiv {
-}
-
-.cfgBtn {
-  color:white; 
-  background-color: LightSteelBlue; 
-  margin-bottom: 5px; 
-  height:100px; 
-  float: left;
-  #clear: both;
-  
-  display: table-cell;
-  text-align:center;
-}
-
-.cfgBtnTitle {
-  line-height:90%;
-  #margin-top: 30px;
-  vertical-align: middle;
-}
-
-.cfgBtnText {
-  margin-top:0; 
-  line-height:90%;
-  font-size: small;
-}
-
-.dpyTitle {
-  color:white; 
-  background-color: DimGrey ;
-  margin-top: 0px;
-  text-align:center;
-}
-
-.learnImg{
-  height: 10px;
-}
-
-.btnBarIcon {
-  height: 40px;
-  float:left;
-}
-
+} 
 
 /* tab settings */
 /*
@@ -295,11 +98,8 @@ $btnDiscoverBackgroundHighlight: #781f1c;
   border-top: 2px solid #ddd;
   border-bottom: 2px solid #ddd;
   padding: 10px;
-}
-
-*/
-
-
+} 
+*/ 
 
 .discoverBtn {
   color:white; 
@@ -312,20 +112,7 @@ $btnDiscoverBackgroundHighlight: #781f1c;
   margin-bottom:10px;
 }
 
-.discoverVisitBtn {
-  background-color:gray;
-}
-
-.discoverDwnLdBtn {
-  background-color:#781f1c;
-}
-
-.discoverDwnLdBtnDisabled {
-  background-color:#ECD9EC;
-  border-bottom: #E5E5E5;
-  border-right:#E5E5E5;
-} 
-
 .learn-btn, .discover-btn, .implement-btn {
   margin: 1.6em 0;
 }
+
