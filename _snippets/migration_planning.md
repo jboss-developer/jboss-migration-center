@@ -1,21 +1,23 @@
 Migration Planning
 ==================
 
-Every migration project, no matter the size or scope, requires detailed planning to ensure success. It is important to look at all facets of your IT environment. Understand the risks, savings, and cost structure of your migration project. This information will enable you to accurately project net improvements and realize actual return on your IT investment.  
+Migrating applications can be a complicated process. To ensure success, every migration project, no matter the size or scope, should always start with a detailed migration plan. Beginning with a plan and  assessment which looks at all facets of your IT environment will help you understand the risks, savings, and anticipated costs of your migration project. This information will also enable you determine the steps you need to take to achieve the migration goals this project is designed to provide.
 
-The considerations and processes detailed here are designed to help you identify migration opportunities, examine the risks associated with various migration scenarios, create a standard migration process, and help develop a comprehensive strategic migration plan.  
+The considerations and processes detailed here are designed to help you identify migration opportunities, examine the risks associated with various migration scenarios, create a standard migration process, and help develop a strategic migration plan. 
 
-Prior to formal planning, an organization must acknowledge the motivations behind the migration, as well as understand the advantages and disadvantages to each potential migration scenario. Lacking this understanding, organizations may be unprepared for decisions and trade-offs that must be made throughout the planning process. Once motivations are clear, organizations should step through each of the four phases of the strategic migration process detailed here. Those phases are: 
+Prior to formal planning, an organization must determine the drivers (link to the migration drivers page) behind the migration, as well as understand the advantages and disadvantages to each potential migration scenario. Lacking this understanding, organizations may be unprepared for decisions and trade-offs that must be made throughout the planning process. 
 
-1. Perform an application and infrastructure analysis.
-2. Measure organizational readiness.
-3. Develop a strategic migration plan
-4. Implement the migration plan 
+After your migration motivations and goals are well defined, there are four phases of the migration process an orgaions should step through each of the four phases of the strategic migration process detailed here. Those phases are: 
 
-Phase I: Application and Infrastructure Analysis
+1. Perform an <B>Application and Infrastructure Assessment</B>.
+2. Measure <B>Organizational Readiness</B>.
+3. Develop a <B>Strategic Migration Plan</B>
+4. Implement the <B>Migration Plan</B> 
+
+Phase I: Application and Infrastructure Assessment
 ------------------------------------------------
 
-To ensure that business services are not disrupted in an unplanned fashion, a detailed  application and infrastructure assessment is needed. The purpose of this analysis is to create a document package for each application, with sufficient understanding of its current footprint, to evolve a clear, orderly, measurable migration strategy.
+To ensure that business services are not unnecessarily disrupted, a detailed application and infrastructure assessment is needed. The purpose of this analysis is to create a document package for each application, with sufficient understanding of its current footprint, to evolve a clear, orderly, measurable migration strategy.
 
 The document package consistes of the following documents.  
 
@@ -27,21 +29,21 @@ The document package consistes of the following documents.
 
 ### Application Contacts ###
 
-During the initial assessment phase of each application it is important to capture the names of all current stakeholders that will enable key decisions pertaining to the software and hardware infrastructure involved in the migration. The table below illustrates a useful set of information about key stakeholders for an application.  Usually these stakeholders will be involved in the planning, building and testing of components during the migration process and sign-off at the end of each phase.  
+During the initial assessment phase of each application, it is important to capture the names of all current stakeholders who are responsible for making the  key decisions pertaining to the software and hardware infrastructure involved in the migration. The table below illustrates a useful set of information about key stakeholders for an application. Usually these stakeholders will be involved in the planning, building and testing of components during the migration process and sign-off at the end of each phase.  
 
 Below is an example of information you will want to collect.  
 
-[application_contacts.odt](#{site.base_url}/forms/application_contacts.odt)
+File: [application_contacts.odt](#{site.base_url}/forms/application_contacts.odt)
 
 #{partial("tables/application_contacts.html")}
 
 ### Infrastructure analysis ###
 
-The infrastructure includes the full ecosystem in which the application server operates. This analysis is an inventory of the existing servers, network infrastructure, and applications. It sets a baseline of existing functionality and load capacity.
+The migration infrastructure includes the full ecosystem in which the application server operates. This analysis is an inventory of the existing servers, network infrastructure, and applications. It sets a baseline of existing functionality and load capacity.
 
 Below is an example of information you will want to collect 
 
-[infrastructure_analysis.odt]({site.base_url}/forms/infrastructure_analysis.odt)
+File: [infrastructure_analysis.odt]({site.base_url}/forms/infrastructure_analysis.odt)
 
 #{partial("tables/infrastructure_analysis.html")}
 
@@ -54,7 +56,7 @@ This information will help prioritize and schedule migration activities and brea
 
 Below is an example of information you will want to collect 
 
-[application_interdependencies.odt](#{site.base_url}/forms/application_interdependencies.odt)
+File: [application_interdependencies.odt](#{site.base_url}/forms/application_interdependencies.odt)
 
 #{partial("tables/application_interdependencies.html")}
 
@@ -64,20 +66,20 @@ An assessment of the source code of each application to be migrated should be ma
 
 Further analysis may be needed to determine how best to address identified technology gaps, find open source alternatives to proprietary APIs, and solutions to configuration conflicts.  This information will enable you to scope the engineering time and effort required to migrate an application.  
    
-Windup is a free open source tool that can help with this assessment. It will analyze your code and generates a report that identifies known issues. In addition the report provides an estimate of effort required to make code changes and where appropriate, offers suggestions for replacement code. [  LINK TO DISCOVER PAGE HERE ???? ] 
+<B>Windup</B> is a free open source tool that can help with this assessment. It will analyze your code and generates a report that identifies known issues. In addition the report provides an estimate of effort required to make code changes and where appropriate, offers suggestions for replacement code. 
 
 It is helpful to maintain a spreadsheet of this information. It is a good reference document to share and it can be used to generate more detailed project plans and to track project progress.  
 
-[application_assessment.odt](#{site.base_url}/forms/application_assessment.odt)
+File: [application_assessment.odt](#{site.base_url}/forms/application_assessment.odt)
 
 #{partial("tables/application_assessment.html")}
 
 Phase II: Organizational Readiness
 ----------------------------------
 
-Organizational factors will generally prevail over technical factors. Technical factors can be easily delineated and addressed. Organizational factors lie beneath the surface and can derail efforts. Seemingly small hurdles can become insurmountable if the organization is unprepared or unwilling to address them. Without a plan for addressing issues, the organization can quickly become focused on minor shortcomings and overlook major opportunities for migrating to open source.  
+While, in most cases, technical factors (i.e.moving to newer technologies, improved throughput, replacing retired products, etc.) can be easily delineated and addressed, organizational factors (i.e. cost, personnel, time, etc.), lie beneath the surface and can derail efforts. When organizational  and technical considerations collide, the organizational factors will typically prevail. Seemingly small hurdles can become insurmountable if the organization is unprepared or unwilling to address them. Without a plan for addressing these issues, the organization can quickly become focused on minor shortcomings and overlook major opportunities for migrating to open source.   
 
-The first step in addressing organizational risk factors is to analyze organizational issues and risks. This will provide a roadmap for preparing the organization for the migration. Organizational readiness factors include.  
+The first step to getting any organization ready for migration is to assess any possible organizational issues and risks. From this, a roadmap for addressing these issues can be developed. Organizational readiness factors to determine include:
 
 Training and knowledge gaps
 : * Is the staff knowledgeable about the technology or merely comfortable with existing tools?  
@@ -88,39 +90,35 @@ Workload factors
   * Will there be sufficient hardware to deploy and test new servers before putting them into production?  
 
 Cultural factors
-: * Bottom-up versus top-down decision making
-  * High quality versus low cost
-  * Leading versus trailing edge
+: * Is decision making bottom-up or  top-down?
+  * Is high quality valued more than low cost?
+  * How important is leading versus trailing edge?
 
 Budget
-: * CAPEX versus OPEX
-  * TCO versus ROI
+: * Which is more important: controlling CAPEX/OPEX or maximizing TCO/ROI?
 
-Taking these considerations into account for the migration plan will avoid unpleasant surprises and produce a successful migration.  
 
-A strength, weakness, opportunity and threats (SWOT) analysis can help define the organizational readiness. It basically helps the organization match up strengths and weakness, opportunities and threats, and then develop a plan to leverage strengths to overcome weaknesses.  
+Taking these considerations into account for the migration plan will avoid unpleasant surprises and help ensure a the migration objectives are met.  
+
+A SWOT assessment (strengths, weaknesses, opportunities and threats) can also be a valuable tool.  It can  help further define an organization's readiness, by matching up strengths and weakness, opportunities and threats, from which a plan can be developed to leverage strengths to overcome weaknesses. 
+
+Phase III: Strategic Migration Plan
+-----------------------------------
     
-A strength, weakness, opportunity and threats (SWOT) analysis can help define the organizational readiness. It basically helps the organization match up strengths and weakness, opportunities and threats, and then develop a plan to leverage strengths to overcome weaknesses.  
-
-Phase III: Migration Plan
--------------------------
-    
-Once the analysis is complete, migration bundles can be created based upon a careful evaluation of their logical interdependencies and business priorities. 
+Once the assessments are completed, migration bundles can be created based upon a careful evaluation of their logical interdependencies and business priorities. 
 
 Each migration bundle should have a list of participating applications, implementation teams, and stakeholders who will sign off on work at the end of each phase.  
     
-[migration_plan.odt](#{site.base_url}/forms/migration_plan.odt)
+File: [migration_plan.odt](#{site.base_url}/forms/migration_plan.odt)
 
 #{partial("tables/migration_plan.html")}
 
 Phase IV: Migration Plan Implementation 
 ---------------------------------------
 
-[THIS SECTION SEEMS LIKE A GOOD PLACE TO PRESENT THE NEW MODEL, DEVELOPE FOR FREE,  .... GO TO PRODUCTION WITH A LICENSE. ] 
-
-When performing a migration is it important to use a standard operating environment (SOE) upon which to migrate. An SOE is an organization’s standard implementation of the core operating system and middleware components. It should include the base operating system, the JEE container, custom configurations, standard applications used within an organization, software updates, and service packs.  
+When performing a migration, it is important to use a standard operating environment (SOE) upon which to migrate. An SOE is an organization’s standard implementation of the core operating system and middleware components. It should include the base operating system, the JEE container, custom configurations, standard applications used within an organization, software updates, and service packs.  
    
-Once an migration bundle has been identified, a standardized configuration based on an SOE approach can be created for rapid and consistent deployment. An SOE configuration consists of a set of tested hardware, tested software,  and configurations deployed within a JBoss environment. The SOE configuration should be fully aligned to your technical and business requirements. It will dramatically reduce deployment time, simplify maintenance, increase stability, and reduce support and management costs.  
+Once a migration bundle has been identified, a standardized configuration based on an SOE approach can be created for rapid and consistent deployment. An SOE configuration consists of a set of tested hardware, tested software,  and configurations deployed within a JBoss environment. The SOE configuration should be fully aligned to your technical and business requirements. It will dramatically reduce deployment time, simplify maintenance, increase stability, and reduce support and management costs.  
 
 For each phase of a migration bundle's implementation from engineering implementation through,  QA validation and production deployment the appropriate stakeholder should review the work and signed-off on the phrase.  
 
