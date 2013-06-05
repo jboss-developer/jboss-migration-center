@@ -16,7 +16,7 @@ Windup is a tool to simplify Java application migrations. Running from the comma
     <a href="http://windup.jboss.org/download.html" class="btn btn-discover">Download Windup</a>
   </div>
   <div class="span4 pagination-centered">
-    <a href="http://windup.jboss.org/" class="btn btn-discover">Vist jboss.windup.org</a>
+    <a href="http://windup.jboss.org/" class="btn btn-discover">Vist windup.jboss.org</a>
   </div>
 </div>
 
