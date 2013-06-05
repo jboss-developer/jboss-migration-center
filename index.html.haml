@@ -2,92 +2,77 @@
 layout: base
 ---
 
-.tagLine
-  = snippet "home/tagline.md"
-    
-
-.row.home
-  .span9
-    .row
-      .container
-        .preparation.wallpaper
-          <!-- ########## header of diagram ########## -->
-          .row.hidden-phone
-            .span2.vertical-arrow.height60
-              %h4 &nbsp;
-            .span1
-            .span3
-              %h4 Application Preparation 
-            .span3
-              %h4 Server Preparation 
-          <!-- ########## middle buttons ########## -->
-          %a.btn(href="learn")
-            .row
-              .span2
-                :markdown
-                  Learn
-                  -----
-              .span1
-              .span3.hidden-phone
-                :markdown
-                  Learn about how applications are built using JBoss EAP. 
-              .span3.hidden-phone
-                :markdown
-                  Learn about what server capabilities are provided in EAP 
-          .row.spacer5
-            .span2.vertical-arrow.hidden-phone
-          %a.btn(href="discover")
-            .row
-              .span2
-                :markdown
-                  Discover
-                  --------
-              .offset1.span3.hidden-phone
-                :markdown
-                  Run one of our tools to help you identify changes you need to make to your application.  
-              .span3.hidden-phone
-                :markdown
-                  Identify the JBoss EAP equivalent capabilities to support your application.
-          .row.spacer5
-            .span2.vertical-arrow.hidden-phone
-          %a.btn(href="implement")
-            .row
-              .span2
-                :markdown
-                  Implement
-                  ---------
-              .offset1.span3.hidden-phone
-                :markdown
-                  Implement the changes to your application
-              .span3.hidden-phone
-                :markdown
-                  Set up JBoss EAP with the capabilities needed for your application.   
-          .row.spacer40.hidden-phone
-            .span2.vertical-arrow
-          .row.spacer62.hidden-phone
-            .span2.curve-arrow
-            .span3.end-arrow
-            .span2.deploy
-              :markdown
-                Deploy
-                ------
-                Deploy your application on EAP!
-    .row
-      = snippet "home/migrate_from.md" 
-
-  <!-- ############### right column ############### -->      
-  .offset1.span2.secondary-buttons
+.row 
+  .span12.tagLine
+    = snippet "home/tagline.md" 
+.row
+  .home.span9
+    .preparation
+      -# ############## Background ############# 
+      .arrow-wallpaper
+      -# ########## header of diagram ########## 
+      .diagram-header.hidden-phone
+        .span3.offset2
+          %h4 Application Preparation 
+        .span3
+          %h4 Server Preparation 
+      -# ########## middle buttons ########## 
+      .learn-btn
+        %a.btn(href="learn")
+          .span2
+            :markdown
+              Learn
+              -----
+          .span3.hidden-phone
+            :markdown
+              Learn about how applications are built using JBoss EAP. 
+          .span3.hidden-phone
+            :markdown
+              Learn about what server capabilities are provided in EAP 
+      .discover-btn
+        %a.btn(href="discover")
+          .span2
+            :markdown
+              Discover
+              --------
+          .span3.hidden-phone
+            :markdown
+              Run one of our tools to help you identify changes you need to make to your application.  
+          .span3.hidden-phone
+            :markdown
+              Identify the JBoss EAP equivalent capabilities to support your application.
+      .implement-btn
+        %a.btn(href="implement")
+          .span2
+            :markdown
+              Implement
+              ---------
+          .span3.hidden-phone
+            :markdown
+              Implement the changes to your application
+          .span3.hidden-phone
+            :markdown
+              Set up JBoss EAP with the capabilities needed for your application.   
+      .deploy.hidden-phone
+        :markdown
+          Deploy
+          ------
+          Deploy your application on EAP!
+  -# Right column
+  .span3.secondary-buttons
     .row
       %a.btn.btn-inverse(href="migration-drivers")
         = snippet "home/why_migrate.md"
     .row
       %a.btn.btn-inverse(href="migration-planning")
-        = snippet "home/planning_sheet.md"
-         
+        = snippet "home/planning_sheet.md" 
     .row
       %a.btn.btn-inverse(href="http://www.redhat.com/consulting/technology-solutions/migrations/")
         = snippet "home/need_more_help.md" 
     .row
       %a.btn.btn-inverse(href="http://community.jboss.org/en/migration")
         = snippet "home/discuss.md" 
+.row
+  .span9
+    = snippet "home/migrate_from.md" 
 
