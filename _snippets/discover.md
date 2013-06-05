@@ -10,6 +10,9 @@ Windup
 
 Windup is a tool to simplify Java application migrations. Running from the command line, the tool analyzes artifacts from Java applications and produces an HTML report highlighting areas that require changes. The analyzer is driven by customizable and extendable rules to provide information to assist the developer in migrating applications. It's initial focus is Java EE applications but the Windup design and rule organization is general enough to allow Windup to be used for practically any kind of migration.  
 
+How Does it Work?
+Windup is comprised of resource interrogators. These interrogators look for common resources and highlight technologies and known “trouble spots” in migrating applications. The goal of Windup is to provide a high level view into relevant technologies in use within the application, and provide a consumable report for organizations to estimate, document, and migrate JEE applications to JBoss.
+
 
 
 <div class="row product-links">
@@ -25,6 +28,7 @@ Windup is a tool to simplify Java application migrations. Running from the comma
 </div>
 
 
+<br />
 JBoss Configuration Migration Tool
 ----------------------------------
 
