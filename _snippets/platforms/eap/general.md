@@ -4,6 +4,9 @@ JBoss EAP 6 is based upon a new server architecture and there are new implementa
 Application
 -----------
 
+No code changes required.  
+
+
 Server Configuration 
 --------------------
        
