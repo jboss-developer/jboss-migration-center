@@ -29,7 +29,7 @@ Windup is comprised of resource interrogators. These interrogators look for comm
 
 
 <br />
-JBoss Configuration Migration Tool (Early Access Software)
+JBoss Configuration Migration Tool (Early Access)
 ----------------------------------
 
 The JBoss Configuration Migration Tool is an early access project. This tool analyzes and migrates JBoss EAP 5 server configuration data to your JBoss EAP 6 installation.  This tool also supports migrating server data from AS 5 to AS 6. Future versions will analyze server configurations for migrating from proprietary platforms (IBM, Oracle) to JBoss EAP 6.
