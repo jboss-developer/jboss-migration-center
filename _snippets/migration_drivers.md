@@ -39,7 +39,7 @@ In addition to changing business requirements, there are many more motivations b
 		
 	</tr>
 </table>
-<p>
+<p><br>
 
 
 In many cases, a combination of motivations drive server migrations. Whereas no single motivation may be sufficient to warrant the move, the sum of the business objectives may be enough to justify the migration. In other cases, a single driver (such as cost savings) is greatly desired (or required) and sufficient to justify the migration.  
