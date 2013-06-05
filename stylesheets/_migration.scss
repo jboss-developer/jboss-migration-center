@@ -44,14 +44,15 @@ $btnDiscoverBackgroundHighlight: #781f1c;
   }
 
   .preparation {
-
+    min-height: 1px;
+    max-height: 90%;
+    background: url(../images/vert_arrow.png) 8em repeat-y; 
     .wallpaper {
       background-image:url(/images/DeployonEAP.png);
       background-repeat:no-repeat;
       background-position: 70px 30px;
       height:385px;
-    }
-
+    } 
     h2 {
       padding-top:10px;
       font-size: 22px;
@@ -60,12 +61,12 @@ $btnDiscoverBackgroundHighlight: #781f1c;
       text-align: center;
       text-transform: uppercase;
       color:#781f1c;
-    }
-    
+    } 
     .btn {
       height:75px;
       text-align:left;
       padding-left: 0px;
+      margin-left: 0px;
     }
 
     .spacer5 {
@@ -141,9 +142,10 @@ $btnDiscoverBackgroundHighlight: #781f1c;
     }
 
     .deploy {
-      text-align: center;
-
-      h2 {
+      text-align: center; 
+      background: image-url("bottom_arrow.png") 7.9em -1px no-repeat white;
+      padding-left: 15em;
+      & > h2 {
         padding-top: 0px;
         margin-top: 0px;
       }
@@ -154,7 +156,6 @@ $btnDiscoverBackgroundHighlight: #781f1c;
 .secondary-buttons {
 
   .btn {
-    width: 100%;
     margin-top: 20px;
     
     h2 {
@@ -325,3 +326,6 @@ $btnDiscoverBackgroundHighlight: #781f1c;
   border-right:#E5E5E5;
 } 
 
+.learn-btn, .discover-btn, .implement-btn {
+  margin: 1.6em 0;
+}
