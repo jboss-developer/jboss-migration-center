@@ -71,3 +71,5 @@ Successfully Migrated Customers
 * [Stater Increases Stability and Performance of Mission-Critical Applications with JBoss Enterprise Application Platform ](https://www.redhat.com/resourcelibrary/case-studies/stater-further-increases-stability-with-jboss)
 * [Panthera Capital’s CFD Trading Platform Achieves Improved Reliability, Performance, and Scalability After Migration to Red Hat ](http://www.redhat.com/resourcelibrary/case-studies/panthera-capitals-cfd-trading-platform-achieves-improved-reliability)
 
+
+NEXT: <B>Migration Planning</B>(http://www.jboss.org/migration/migration-planning)
