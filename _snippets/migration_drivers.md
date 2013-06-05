@@ -72,4 +72,6 @@ Successfully Migrated Customers
 * [Panthera Capital’s CFD Trading Platform Achieves Improved Reliability, Performance, and Scalability After Migration to Red Hat ](http://www.redhat.com/resourcelibrary/case-studies/panthera-capitals-cfd-trading-platform-achieves-improved-reliability)
 
 
-NEXT: <B>[Migration Planning]</B>(http://www.jboss.org/migration/migration-planning)
+NEXT: [Panthera Capital’s CFD Trading Platform Achieves Improved Reliability, Performance, and Scalability After Migration to Red Hat ](http://www.redhat.com/resourcelibrary/case-studies/panthera-capitals-cfd-trading-platform-achieves-improved-reliability)
+
+<B>[Migration Planning]</B>(http://www.jboss.org/migration/migration-planning)
