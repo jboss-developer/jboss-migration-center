@@ -8,19 +8,11 @@ layout: base
   %ul.nav.nav-tabs
     %li.active
       %a{:href=>"#general", "data-toggle"=>"tab"}General
-    %li
-      %a{:href=>"#11x", "data-toggle"=>"tab"}11.x
-    %li
-      %a{:href=>"#10x", "data-toggle"=>"tab"}10.x 
+    
   <!-- ++++++++++++++###############++++++++++++++++ -->
   .tab-content 
     <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
     .tab-pane.active{:"id"=>"general"}
       = snippet "platforms/weblogic/general.md"
-    <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
-    .tab-pane{:"id"=>"11x"}
-      = snippet "platforms/weblogic/11x.md"
-    <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
-    .tab-pane{:"id"=>"10x"}
-      = snippet "platforms/weblogic/10x.md"
+  
 
