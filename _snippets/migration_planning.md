@@ -94,15 +94,16 @@ Workload factors
 Cultural factors
 : * Is decision making bottom-up or  top-down?
   * Is high quality valued more than low cost?
-  * How important is leading versus trailing edge?
+
 
 Budget
-: * Which is more important: controlling CAPEX/OPEX or maximizing TCO/ROI?
+: * With respect to software purchases and new product implementation, how are expenses calculated? in terms of CAPEX or OPEX?  
+  * How do you model your business justification for a major IT initiative? Do you take an ROI or a TCO approach?
 
 
 Taking these considerations into account for the migration plan will avoid unpleasant surprises and help ensure a the migration objectives are met.  
 
-A SWOT assessment (strengths, weaknesses, opportunities and threats) can also be a valuable tool.  It can  help further define an organization's readiness, by matching up strengths and weakness, opportunities and threats, from which a plan can be developed to leverage strengths to overcome weaknesses. 
+A SWOT assessment (strengths, weaknesses, opportunities and threats) can be used to determine how prepared an organization is to execute on a migration plan. It can  help define an organization's readiness, that is, what is working well, and what needs to be changed or improved. After assessing their strengths and weakness, opportunities and threats, organizations can develop a plan to overcome the weaknesses and leverage their strengths. 
 
 Phase III: Strategic Migration Plan
 -----------------------------------
