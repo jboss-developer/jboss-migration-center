@@ -5,11 +5,11 @@ Red Hat JBoss Enterprise Application Platform 6 is a fast, secure, powerful appl
 
 Red Hat JBoss Enterprise Application Platform 6 is ideal for a wide range of applications from HTML5 mobile applications to highly transactional applications that utilize the JEE programming approach. Learn about the following JBoss EAP features and components:
 
-[Directory structure](#directoryStructure)  
+[Directory structure](#directoryStructure)
 
 [Modular class loading](#modularClassLoading)
 
-[Messaging](#messaging) 
+[Messaging](#messaging)
 
 [Distributed caching](#distributedCaching)
 
