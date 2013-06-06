@@ -24,8 +24,14 @@
               %li.migrNavBtn
                 %a{:href=>"#{site.base_url}"}Home 
               %li.dropdown.migrNavBtn
-                %a.dropdown-toggle{:id=>"fran_drop", :href=>"#{site.base_url}/learn", :"data-toggle"=>"dropdown"}Learn<b class="caret"></b>
+                %a.dropdown-toggle(id="fran_drop" href="#{site.base_url}/learn" data-target="#" data-toggle="dropdown")
+                  Learn
+                  %i.caret
                 %ul.dropdown-menu.migrDropdownMenu{:role=>"menu", :"arialabledby"=>"fran_drop"}
+                  %li
+                    %a{:href=>"#{site.base_url}/learn"}
+                      Learn
+                  %li.divider
                   %li
                     %a{:href=>"#{site.base_url}/migration-drivers"}Why Migrate?
                   %li.divider
@@ -34,8 +40,13 @@
               %li.migrNavBtn
                 %a{:href=>"#{site.base_url}/discover"}Discover 
               %li.dropdown.migrNavBtn
-                %a.dropdown-toggle{:id=>"fran_drop", :href=>"#{site.base_url}/implement", :"data-toggle"=>"dropdown"}Implement<b class="caret"></b>
+                %a.dropdown-toggle(id="fran_drop" href="#{site.base_url}/implement" data-toggle="dropdown" data-target="#")
+                  Implement
+                  %i.caret
                 %ul.dropdown-menu.migrDropdownMenu{:role=>"menu", :"arialabledby"=>"fran_drop"}
+                  %li
+                    %a{:href=>"#{site.base_url}/implement", :role=>"menuitem"}Implement
+                  %li.divider
                   %li
                     %a{:href=>"#{site.base_url}/platforms/eap", :role=>"menuitem"}JBoss EAP
                   %li.divider
