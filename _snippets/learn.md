@@ -33,18 +33,18 @@ Distributed caching
 
 The Infinispan service provides a CacheManager in JNDI which you can use in your application. The Infinispan subsystem configuration defines multiple cache managers, each identified by a name. As with AS6, cache managers can have 1 or more aliases.
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html-single/Development_Guide/index.html#sect-Second-Level_Caches)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#sect-Second-Level_Caches)
 
 Management Console and Management Command Line Interface
 --------------------------------------------------------
 The Management Console and Management Command Line Interface removes the need to edit XML configuration files by hand, adding the ability to script and automate tasks. Administrators have the option of using the enhanced web console, Java APIs, HTTP APIs, or the command line tool, for managing servers. These new features can be used to develop secure, powerful, and scalable Java EE applications quickly. 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6-Beta/html-single/Administration_and_Configuration_Guide/index.html#Manage_the_Application_Server1)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Administration_and_Configuration_Guide/index.html#Manage_the_Application_Server1)
 
 High-availability clustering
 ----------------------------
 Clustering is a key feature in Java EE application servers. It allows you to add more server hardware to handle more requests, to make your application fail-safe, and to make more efficient use of the database server. With JBoss Clustering's fail-over, load-balancing and distributed deployment features, it provides the means to develop large, scalable robust applications.
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html-single/Administration_and_Configuration_Guide/index.html#About_High-Availability_and_Load_Balancing_Clusters)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Administration_and_Configuration_Guide/index.html#About_High-Availability_and_Load_Balancing_Clusters)
 
 Logging
 -------
