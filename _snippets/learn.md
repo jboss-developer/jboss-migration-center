@@ -10,7 +10,7 @@ Directory structure
 
 JBoss EAP 6's server architecture has changed. The microkernel has been rewritten. The directory structure is different, and most importantly the server configuration file structure is different both for standalone and clustered configurations. The "AS 7 Quick Tour Guide" , provides a good overview of the layout of the distribution, the server directory structure, and the key configuration files.
 
-[Read more](http://documentation-devel.engineering.redhat.com/docs/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Installation_Guide/index.html#Installation_Structure)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Installation_Guide/index.html#Installation_Structure)
 
 Modular class loading
 ---------------------
@@ -18,9 +18,7 @@ The new modular structure allows for services to be enabled only when required, 
 
 The modular class loader separates all Java classes into logical groups called modules. Each module can define dependencies on other modules in order to have the classes from that module added to its own class path. Because each deployed JAR and WAR file is treated as a module, developers can control the contents of their application's class path by adding module configuration to their application. 
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6-Beta/html-single/Development_Guide/index.html#Overview_of_Class_Loading_and_Modules-1)
-
-Messaging
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#Overview_of_Class_Loading_and_Modules-1
 ---------
 HornetQ is the JMS provider for JBoss EAP 6. It is an asynchronous messaging system and a fully compliant JMS 1.1 API. It provides all the power of JMS without some of its complexity. The core API also provides some features like "send acknowledgements" which are unavailable using the JMS API.  
 
