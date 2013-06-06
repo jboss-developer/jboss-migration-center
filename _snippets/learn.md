@@ -50,32 +50,32 @@ Logging
 -------
 The JBoss LogManager provides the application logging framework.  It is an extension of the J2SE logging libraries.  The framework supports Apache Commons Logging, SLF4J, Apache log4j, and Java SE Logging.
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html-single/Development_Guide/index.html#chap-Logging_for_Developers)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#chap-Logging_for_Developers)
 
 JPA
 -------
 
 Hibernate provides JBoss EAP 6 with a complete Java Persistence solution. It is 100% compliant with the Java Persistence 2.0 specification and provides additional features to the specification.
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html-single/Development_Guide/index.html#About_Hibernate_Core)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#About_Hibernate_Core)
 
 Hibernate Validator is the JBoss EAP 6's implementation of Bean Validation. It is 100% compliant with JSR 303 - Bean Validation and is the reference implementation of the JSR.
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html-single/Development_Guide/index.html#sect-Bean_Validation)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#sect-Bean_Validation)
 
 JAX-RS
 ------
 
 RESTEasy is the JBoss EAP 6's implementation of JAX-RS. It provides support for building web services using REST, through the use of annotations. These annotations simplify the process of mapping Java objects to web resources.
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html-single/Development_Guide/index.html#chap-JAX-RS_Web_Services)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#chap-JAX-RS_Web_Services)
 
 CDI
 -----
 
 Contexts and Dependency Injection (CDI) introduces the ability to inject dependencies in a type-safe way. CDI is define by JSR-299. Weld is the reference implementation of JSR-299, and is provided in JBoss EAP 6.
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html-single/Development_Guide/index.html#Overview_of_CDI)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#Overview_of_CDI)
 
 Security
 --------
@@ -86,5 +86,5 @@ A security domain is used to configure where and how your users are authenticate
 
 A login module implements a security domain's principal authentication and role-mapping behavior. JBoss EAP 6 ships out-of-the-box with a large collection of login modules, Database, Certificate, Ldap and Kerberos to name a few.
 
-[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html-single/Development_Guide/index.html#About_Security_Domains)
+[Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#About_Security_Domains)
 
