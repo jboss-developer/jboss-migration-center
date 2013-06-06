@@ -1,6 +1,6 @@
 Migration Planning
 ==================
-
+<a id="pageTop"/>
 Migrating applications can be a complicated process. To ensure success, every migration project, no matter the size or scope, should always start with a detailed migration plan. Beginning with a plan and  assessment which looks at all facets of your IT environment will help you understand the risks, savings, and anticipated costs of your migration project. This information will also enable you determine the steps you need to take to achieve the migration goals this project is designed to provide.
 
 The considerations and processes detailed here are designed to help you identify migration opportunities, examine the risks associated with various migration scenarios, create a standard migration process, and help develop a strategic migration plan. 
@@ -9,15 +9,15 @@ Prior to formal planning, an organization must determine the drivers (link to th
 
 After your migration motivations and goals are well defined, there are four phases of the migration process an orgaions should step through each of the four phases of the strategic migration process detailed here. Those phases are: 
 
-1. Perform an [Application and Infrastructure Assessment.] [ApplicationandInfrastucture]  
-2. Measure *Organizational Readiness*.
-3. Develop a *Strategic Migration Plan*
-4. Implement the *Migration Plan* 
+1. Perform an [Application and Infrastructure Assessment.] (#ApplicationandInfrastucture)  
+2. Measure [Organizational Readiness.](#organizationalReadiness)
+3. Develop a [Strategic Migration Plan.] (#strategicMigrationPlan)
+4. Implement the [Migration Plan.] (#migrationPlan) 
 
 
 Phase I: Application and Infrastructure Assessment
 ------------------------------------------------
-
+<a id="ApplicationandInfrastucture"/>
 To ensure that business services are not unnecessarily disrupted, a detailed application and infrastructure assessment is needed. The purpose of this analysis is to create a document package for each application, with sufficient understanding of its current footprint, to evolve a clear, orderly, measurable migration strategy.
 
 The document package consistes of the following documents.  
@@ -39,7 +39,7 @@ File: [application_contacts.odt](#{site.base_url}/forms/application_contacts.odt
 #{partial("tables/application_contacts.html")}
 
 ### Infrastructure analysis ###
-[ApplicationandInfrastructure]
+
 The migration infrastructure includes the full ecosystem in which the application server operates. This analysis is an inventory of the existing servers, network infrastructure, and applications. It sets a baseline of existing functionality and load capacity.
 
 Below is an example of information you will want to collect 
@@ -75,9 +75,10 @@ File: [application_assessment.odt](#{site.base_url}/forms/application_assessment
 
 #{partial("tables/application_assessment.html")}
 
+
 Phase II: Organizational Readiness
 ----------------------------------
-
+<a id="organizationalReadiness"/>
 While, in most cases, technical factors (i.e.moving to newer technologies, improved throughput, replacing retired products, etc.) can be easily delineated and addressed, organizational factors (i.e. cost, personnel, time, etc.), lie beneath the surface and can derail efforts. When organizational  and technical considerations collide, the organizational factors will typically prevail. Seemingly small hurdles can become insurmountable if the organization is unprepared or unwilling to address them. Without a plan for addressing these issues, the organization can quickly become focused on minor shortcomings and overlook major opportunities for migrating to open source.   
 
 The first step to getting any organization ready for migration is to assess any possible organizational issues and risks. From this, a roadmap for addressing these issues can be developed. Organizational readiness factors to determine include:
@@ -105,7 +106,7 @@ A SWOT assessment (strengths, weaknesses, opportunities and threats) can also be
 
 Phase III: Strategic Migration Plan
 -----------------------------------
-    
+<a id="strategicMigrationPlan"/>    
 Once the assessments are completed, migration bundles can be created based upon a careful evaluation of their logical interdependencies and business priorities. 
 
 Each migration bundle should have a list of participating applications, implementation teams, and stakeholders who will sign off on work at the end of each phase.  
@@ -116,10 +117,12 @@ File: [migration_plan.odt](#{site.base_url}/forms/migration_plan.odt)
 
 Phase IV: Migration Plan Implementation 
 ---------------------------------------
-
+<a id="migrationPlan"/>
 When performing a migration, it is important to use a standard operating environment (SOE) upon which to migrate. An SOE is an organization’s standard implementation of the core operating system and middleware components. It should include the base operating system, the JEE container, custom configurations, standard applications used within an organization, software updates, and service packs.  
    
 Once a migration bundle has been identified, a standardized configuration based on an SOE approach can be created for rapid and consistent deployment. An SOE configuration consists of a set of tested hardware, tested software,  and configurations deployed within a JBoss environment. The SOE configuration should be fully aligned to your technical and business requirements. It will dramatically reduce deployment time, simplify maintenance, increase stability, and reduce support and management costs.  
 
 For each phase of a migration bundle's implementation from engineering implementation through,  QA validation and production deployment the appropriate stakeholder should review the work and signed-off on the phrase.  
+
+[[TOP]] (#pageTop)
 
