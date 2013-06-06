@@ -3,7 +3,7 @@ Discover
 
 Once you have a good understanding of your [migration goals](#{site.base_url}/common/migrationDrivers.html),  have put together a [migration plan] (#{site.base_url}/common/migrationPlanning.html), and feel comfortable with [Red Hat JBoss Enterprsie Application Platform] (#{site.base_url}/common/learn.html), the following tools will help you discover any possible issues that you will need to take into account as you are migrating your application or setting up your server environments.
 
-All of the tools on this page are being developed by the open source community and are protected under the <a href="http://www.eclipse.org/org/documents/epl-v10.html">Eclipse Public License</a>. They are not developed  or supported by Red Hat Software.  You may choose to either download the executable, via a zip file, or go to the project site where you can download the code, read more about the projects, contribute to the code development and participate in the forums.
+All of the tools on this page are being developed by the open source community and are protected under the <a href="http://www.eclipse.org/org/documents/epl-v10.html">Eclipse Public License</a>. They are not developed  or supported by Red Hat Software.  You may choose to either download the executable, or go to the project site where you can download the code, read more about the projects, contribute to the code development and participate in the forums.
 
 Windup
 ------
@@ -24,7 +24,7 @@ Windup is comprised of resource interrogators. These interrogators look for comm
     <a href="http://windup.jboss.org/download.html" class="btn btn-discover">Download Windup</a>
   </div>
   <div class="span4 pagination-centered">
-    <a href="http://windup.jboss.org/" class="btn btn-discover">Vist windup.jboss.org</a>
+    <a href="http://windup.jboss.org/" class="btn btn-discover">Windup Project Site</a>
   </div>
 </div>
 
@@ -34,7 +34,7 @@ Windup is comprised of resource interrogators. These interrogators look for comm
 JBoss Configuration Migration Tool (Early Access)
 -------------------------------------------------
 
-The JBoss Configuration Migration Tool is an early access project. This tool analyzes and migrates JBoss EAP 5 server configuration data to your JBoss EAP 6 installation.  This tool also supports migrating server data from AS 5 to AS 6. Future versions will analyze server configurations for migrating from proprietary platforms (IBM, Oracle) to JBoss EAP 6.
+The JBoss Configuration Migration Tool is an early access project. This tool analyzes and migrates JBoss EAP 5 server configuration data to your JBoss EAP 6 installation.  This tool also supports migrating server data from AS 5 to AS 6. Future versions will use Windup to analyze server configurations for migrating from proprietary platforms (IBM, Oracle) to JBoss EAP 6.
 
 <div class="row">
   <div class="span4 pagination-centered">
@@ -44,7 +44,7 @@ The JBoss Configuration Migration Tool is an early access project. This tool ana
     <a href="https://repository.jboss.org/nexus/content/repositories/releases/org/jboss/migr/as/AsMigrator/0.9.4/AsMigrator-0.9.4.jar" class="btn btn-discover">Download Migration Tool</a>
   </div>
   <div class="span4 pagination-centered">
-    <a href="http://github.com/OndraZizka/jboss-migration" class="btn btn-discover">Vist jboss-migration</a>
+    <a href="http://github.com/OndraZizka/jboss-migration" class="btn btn-discover"> Config Tool Project Site</a>
   </div>
 </div>
 
