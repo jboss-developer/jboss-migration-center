@@ -5,7 +5,7 @@ Red Hat JBoss Enterprise Application Platform 6 is a fast, secure, powerful appl
 
 Red Hat JBoss Enterprise Application Platform 6 is ideal for a wide range of applications from HTML5 mobile applications to highly transactional applications that utilize the JEE programming approach. Learn about the following JBoss EAP features and components:
 
-[Directory structure](#directorystructure)
+[Directory structure](#directory)
 
 [Modular class loading](#modularClassLoading)
 
@@ -30,7 +30,7 @@ Red Hat JBoss Enterprise Application Platform 6 is ideal for a wide range of app
   
 Directory structure
 -------------------
-<a id="directorystructure"/>
+<a id="directory"/>
 Learn about JBoss EAP 6's simplified directory structure. The link below provides a good overview of the layout of the distribution, the server directory structure, and the key configuration files. 
 
 [Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Installation_Guide/index.html#Installation_Structure)
