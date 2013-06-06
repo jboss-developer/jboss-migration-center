@@ -7,25 +7,21 @@ Red Hat JBoss Enterprise Application Platform 6 is ideal for a wide range of app
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| [Directory structure](#directoryStructure)    | [Logging](#logging) | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| [Directory structure](#directoryStructure)    | [Logging](#logging) | 
+| [Modular class loading](#modularClassLoading)  |[JPA](#jpa)   |
+| [Messaging](#messaging) | [JAX-RS](#jaxRS) |
+| [Distributed caching](#distributedCaching)| [[CDI](#cdi)|
+| [Management Console](#managementConsole)|[[Security](#security)| 
+| [High-availability clustering](#HighAvailabilityClustering)| 
 
 
-[Directory structure](#directoryStructure) 
 
-[Logging](#logging)
 
-[Modular class loading](#modularClassLoading)   
-[Messaging](#messaging)               
-[Distributed caching](#distributedCaching)     
-[Management Console](#managementConsole)      
-[High-availability clustering](#HighAvailabilityClustering)   
-[Logging](#logging)                 
-[JPA](#jpa)                     
-[JAX-RS](#jaxRS)                  
-[CDI](#cdi)                     
-[Security](#security)                
+  
+           
+    
+   
+               
 
 Directory structure
 -------------------
