@@ -39,7 +39,7 @@ File: [application_contacts.odt](#{site.base_url}/forms/application_contacts.odt
 #{partial("tables/application_contacts.html")}
 
 ### Infrastructure analysis ###
-<a id=”ApplicationandInfrastructure”/> 
+[ApplicationandInfrastructure]
 The migration infrastructure includes the full ecosystem in which the application server operates. This analysis is an inventory of the existing servers, network infrastructure, and applications. It sets a baseline of existing functionality and load capacity.
 
 Below is an example of information you will want to collect 
