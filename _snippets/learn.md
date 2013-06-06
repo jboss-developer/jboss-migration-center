@@ -37,7 +37,7 @@ Learn about JBoss EAP 6's simplified directory structure. The link below provide
 
 Modular class loading
 ---------------------
-<a id="modularClassLoading"/>
+<a id="#modularClassLoading"/>
 The new modular structure allows for services to be enabled only when required, significantly increasing start up speed.  This system provides more flexibility and control than the traditional system of hierarchical class loaders. Developers have fine-grained control of the classes available to their applications, and can configure a deployment to ignore classes provided by the application server in favor of their own.
 
 The modular class loader separates all Java classes into logical groups called modules. Each module can define dependencies on other modules in order to have the classes from that module added to its own class path. Because each deployed JAR and WAR file is treated as a module, developers can control the contents of their application's class path by adding module configuration to their application. 
