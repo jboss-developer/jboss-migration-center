@@ -9,10 +9,10 @@ Prior to formal planning, an organization must determine the drivers (link to th
 
 After your migration motivations and goals are well defined, there are four phases of the migration process an orgaions should step through each of the four phases of the strategic migration process detailed here. Those phases are: 
 
-1. Perform an <B>Application and Infrastructure Assessment</B>.
-2. Measure <B>Organizational Readiness</B>.
-3. Develop a <B>Strategic Migration Plan</B>
-4. Implement the <B>Migration Plan</B> 
+1. Perform an *Application and Infrastructure Assessment*.
+2. Measure *Organizational Readiness*.
+3. Develop a *Strategic Migration Plan*
+4. Implement the *Migration Plan* 
 
 Phase I: Application and Infrastructure Assessment
 ------------------------------------------------
@@ -66,7 +66,7 @@ An assessment of the source code of each application to be migrated should be ma
 
 Further analysis may be needed to determine how best to address identified technology gaps, find open source alternatives to proprietary APIs, and solutions to configuration conflicts.  This information will enable you to scope the engineering time and effort required to migrate an application.  
    
-<B>Windup</B> is a free open source tool that can help with this assessment. It will analyze your code and generates a report that identifies known issues. In addition the report provides an estimate of effort required to make code changes and where appropriate, offers suggestions for replacement code. 
+*Windup* is a free open source tool that can help with this assessment. It will analyze your code and generates a report that identifies known issues. In addition the report provides an estimate of effort required to make code changes and where appropriate, offers suggestions for replacement code. 
 
 Windup produces an HTML report highlighting areas that require changes. It is helpful to move this information into a maintainable spreadsheet. It is a good reference document to share and it can be used to generate more detailed project plans and to track project progress.  
 

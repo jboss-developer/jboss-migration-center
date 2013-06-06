@@ -1,4 +1,5 @@
-<b>Migrating From:</b>
+**Migrating From:**
+
 Red Hat JBoss Enterprise Application Platform/JBoss AS
 ======================================================
 
