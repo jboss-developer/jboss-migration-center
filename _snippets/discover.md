@@ -3,7 +3,7 @@ Discover
 
 Once you have a good understanding of your migration goals (link to Why Migrate),  have put together a migration plan (link to planning), and feel comfortable with Red Hat JBoss Enterprsie Application Platform (Link – Learn EAP), the following tools will help you discover any possible issues that you will need to take into account as you are migrating your application or setting up your server environments.
 
-ll of the tools on this page are being developed by the open source community and are protected under the Eclipse Public License (Link to http://www.eclipse.org/org/documents/epl-v10.html). They are not developed  or supported by Red Hat Software.  You may choose to either download the executable, via a zip file, or go to the project site where you can download the code, read more about the projects, contribute to the code development and participate in the forums.
+All of the tools on this page are being developed by the open source community and are protected under the Eclipse Public License (Link to http://www.eclipse.org/org/documents/epl-v10.html). They are not developed  or supported by Red Hat Software.  You may choose to either download the executable, via a zip file, or go to the project site where you can download the code, read more about the projects, contribute to the code development and participate in the forums.
 
 Windup
 ------
