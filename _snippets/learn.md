@@ -7,8 +7,6 @@ Red Hat JBoss Enterprise Application Platform 6 is ideal for a wide range of app
 
 [Directory structure](#directory)
 
-[Messaging](#messaging)
-
 [Modular class loading](#modularClassLoading)
 
 [Messaging](#messaging)
