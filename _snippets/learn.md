@@ -1,5 +1,5 @@
 Learn About Red Hat JBoss Enterprise Application Platform 
-===================================================
+=========================================================
 
 Red Hat JBoss Enterprise Application Platform 6 is a fast, secure, powerful application platform built upon open standards, and compliant with the Java™ Enterprise Edition 6 specification.  It provides an innovative modular, cloud-ready architecture, powerful management and automation, and world class developer productivity.  JBoss EAP 6 leverages the JBoss Application Server and adds enterprise features for high-availability clustering, caching, messaging, transactions and a full web services stack. It also includes  a new modular class loading system, and a Management Console and Management Command Line Interface. 
 
@@ -8,7 +8,7 @@ Red Hat JBoss Enterprise Application Platform 6 is ideal for a wide range of app
 Directory structure
 -------------------
 
-JBoss EAP 6's server architecture has changed. The microkernel has been rewritten. The directory structure is different, and most importantly the server configuration file structure is different both for standalone and clustered configurations. The "AS 7 Quick Tour Guide" , provides a good overview of the layout of the distribution, the server directory structure, and the key configuration files.
+Learn about JBoss EAP 6's simplified directory structure. The link below provides a good overview of the layout of the distribution, the server directory structure, and the key configuration files. 
 
 [Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Installation_Guide/index.html#Installation_Structure)
 
