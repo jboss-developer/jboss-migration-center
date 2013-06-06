@@ -9,12 +9,12 @@ Prior to formal planning, an organization must determine the drivers (link to th
 
 After your migration motivations and goals are well defined, there are four phases of the migration process an orgaions should step through each of the four phases of the strategic migration process detailed here. Those phases are: 
 
-1. Perform an <a href=”#{site.base_url}/common/migrationPlanning.html#Application and Infrastructure”> Application and Infrastructue Assessment. </a>
+1. Perform an <a href=”#{site.base_url}/common/migrationPlanning.html#ApplicationandInfrastructure”> Application and Infrastructure Assessment. </a>
 2. Measure *Organizational Readiness*.
 3. Develop a *Strategic Migration Plan*
 4. Implement the *Migration Plan* 
 
-<a id=”Application and Infrastructure”/> 
+<a id=”ApplicationandInfrastructure”/> 
 Phase I: Application and Infrastructure Assessment
 ------------------------------------------------
 
