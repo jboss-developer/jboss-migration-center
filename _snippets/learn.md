@@ -7,7 +7,7 @@ Red Hat JBoss Enterprise Application Platform 6 is ideal for a wide range of app
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| [Directory structure](#directoryStructure)    | [Logging](#logging) | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
