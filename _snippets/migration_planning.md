@@ -74,7 +74,7 @@ Windup produces an HTML report highlighting areas that require changes. It is he
 File: [application_assessment.odt](#{site.base_url}/forms/application_assessment.odt)
 
 #{partial("tables/application_assessment.html")}
-
+[[TOP]](#pageTop)
 
 Phase II: Organizational Readiness <a id="organizationalReadiness"/>
 ----------------------------------
@@ -104,6 +104,8 @@ Budget
 Taking these considerations into account for the migration plan will avoid unpleasant surprises and help ensure a the migration objectives are met.  
 
 A SWOT assessment (strengths, weaknesses, opportunities and threats) can be used to determine how prepared an organization is to execute on a migration plan. It can  help define an organization's readiness, that is, what is working well, and what needs to be changed or improved. After assessing their strengths and weakness, opportunities and threats, organizations can develop a plan to overcome the weaknesses and leverage their strengths. 
+
+[[TOP]](#pageTop)
 
 Phase III: Strategic Migration Plan <a id="strategicMigrationPlan"/> 
 -----------------------------------
