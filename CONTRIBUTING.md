@@ -62,7 +62,7 @@ To setup the environment you need to follow these steps. *Certify to use the cor
 
 3. Install Ruby GEMs
 
-        bundle setup       
+        bundle install       
     
 Running the site locally
 ------------------------
