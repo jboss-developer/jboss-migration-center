@@ -15,6 +15,7 @@ Application
 * [Migrate weblogic.xml Descriptor File Configurations](https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-Migrateweblogic.xmlDescriptorFileConfigurations)
 * [Migrate weblogic-application.xml Descriptor File Configurations](https://docs.jboss.org/author/display/AS72/How+do+I+migrate+my+application+from+WebLogic+to+AS+7#HowdoImigratemyapplicationfromWebLogictoAS7-Migrateweblogicapplication.xmlDescriptorFileConfigurations)
 
+<br/>
 
 Server
 ------
