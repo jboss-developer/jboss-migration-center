@@ -54,7 +54,7 @@ Messaging <a id="messaging"/>
 
 HornetQ is the JMS provider for JBoss EAP 6. It is an asynchronous messaging system and a fully compliant JMS 1.1 API. It provides all the power of JMS without some of its complexity. The core API also provides some features like "send acknowledgements" which are unavailable using the JMS API.  
 
-HornetQ provides a fully functional JCA adaptor that can be used in any JEE compliant application server to integrate HornetQ so it can be used for consuming messages via Message Driven Beans (MDBs), or for sending messages in Enterprise JavaBeans or servlets.  [Read more](href=>"http://docs.jboss.org/hornetq/2.2.2.Final/user-manual/en/html_single/#messaging-concepts)
+HornetQ provides a fully functional JCA adaptor that can be used in any JEE compliant application server to integrate HornetQ so it can be used for consuming messages via Message Driven Beans (MDBs), or for sending messages in Enterprise JavaBeans or servlets.  [Read more](http://docs.jboss.org/hornetq/2.2.2.Final/user-manual/en/html_single/#messaging-concepts)
 
 [[TOP]](#pageTop)
 
