@@ -5,9 +5,9 @@ Migrating applications can be a complicated process. To ensure success, every mi
 
 The considerations and processes detailed here are designed to help you identify migration opportunities, examine the risks associated with various migration scenarios, create a standard migration process, and help develop a strategic migration plan. 
 
-Prior to formal planning, an organization must determine the drivers (link to the migration drivers page) behind the migration, as well as understand the advantages and disadvantages to each potential migration scenario. Lacking this understanding, organizations may be unprepared for decisions and trade-offs that must be made throughout the planning process. 
+Prior to formal planning, an organization must determine the [drivers](#{site.base_url}/migration-drivers) behind the migration, as well as understand the advantages and disadvantages to each potential migration scenario. Lacking this understanding, organizations may be unprepared for decisions and trade-offs that must be made throughout the planning process. 
 
-After your migration motivations and goals are well defined, there are four phases of the migration process an orgaions should step through each of the four phases of the strategic migration process detailed here. Those phases are: 
+After your migration motivations and goals are well defined, there are four phases of the migration process an organization should step through.  Those phases are: 
 
 1. Perform an [Application and Infrastructure Assessment.](#ApplicationandInfrastucture)  
 2. Measure [Organizational Readiness.](#organizationalReadiness)
