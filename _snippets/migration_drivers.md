@@ -48,6 +48,8 @@ A successful and smooth migration to JBoss requires a strategic level of up-fron
 
 Whatever the particular drivers are, it is important to bear them in mind when planning migrations. Drivers help dictate priorities and methods when migrating. They are key to determining which migration scenario applies and how it should be deployed. For example, if a major driver is the desire to benefit from the latest features and capabilities, the migration project will need to delineate the features desired and determine which can be achieved by changing configurations and which will require updating source code.  
 
+<br/>
+
 Potential Migration Scenarios
 -----------------------------
 
@@ -61,7 +63,9 @@ The easiest and most cost-effective way to start your migration is to migrate ba
 
 Migrating Java EE applications is in theory no more difficult than migrating pure web applications. However, keep in mind that a main of Java EE specifications is to facilitate the integration of multiple frameworks with diverse functionalities. This means that, in most cases, you will be implementing several "mini-migrations".
 
-  In addtion, if proprietary IDEs are used in the development of Java EE applications, these will often have the generated classes extend and implement proprietary classes and interfaces.  
+  In addtion, if proprietary IDEs are used in the development of Java EE applications, these will often have the generated classes extend and implement proprietary classes and interfaces. 
+  
+<br/>
 
 Successfully Migrated Customers 
 -------------------------------
@@ -72,6 +76,6 @@ Successfully Migrated Customers
 * [Panthera Capital’s CFD Trading Platform Achieves Improved Reliability, Performance, and Scalability After Migration to Red Hat ](http://www.redhat.com/resourcelibrary/case-studies/panthera-capitals-cfd-trading-platform-achieves-improved-reliability)
 
 
-NEXT: [Migration Planning](#{site.base_url}/common/migrationPlanning.html)
+NEXT: [Migration Planning](#{site.base_url}/migration-planning)
 
 
