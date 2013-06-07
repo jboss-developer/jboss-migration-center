@@ -3,20 +3,17 @@ $titleColor: #781f1c;
 $btnDiscoverBackground: #992913;
 $btnDiscoverBackgroundHighlight: #781f1c;
 
-.tagLine {
-  color: $titleColor;
-  text-align:center;
-}
 
 .snippet { 
   h1 {
     color: $titleColor; 
   }
+
   a:not(.btn) {
     line-height:11px;
     background:url(../images/OpenOut.png)  center right no-repeat;
     padding-right:20px;
-  } 
+  }
 }
 
 // Discover buttons are custom for the migration center based on crobson's styling
@@ -60,7 +57,7 @@ $btnDiscoverBackgroundHighlight: #781f1c;
   text-align: center; 
   background: url(../images/bottom_arrow.png) 7.9em -1px no-repeat white;
   padding-left: 15em;
-  & > h2 {
+  & > h3 {
     padding-top: 0px;
     margin-top: 0px;
   }

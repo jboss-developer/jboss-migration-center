@@ -3,7 +3,7 @@ layout: base
 ---
 
 .row 
-  .span12.tagLine
+  .span12
     = snippet "home/tagline.md" 
 .row
   .home.span9
@@ -58,24 +58,12 @@ layout: base
         .row
           .span3.offset2
             :markdown
-              Deploy
-              ------
+              ###Deploy
               Deploy your application on EAP!
-  -# Right column
-  .span2.secondary-buttons
-    .row
-      %a.btn.span2.btn-inverse(href="migration-drivers")
-        = snippet "home/why_migrate.md"
-    .row
-      %a.btn.span2.btn-inverse(href="migration-planning")
-        = snippet "home/planning_sheet.md" 
-    .row
-      %a.btn.span2.btn-inverse(href="http://www.redhat.com/consulting/technology-solutions/migrations/")
-        = snippet "home/need_more_help.md" 
-    .row
-      %a.btn.span2.btn-inverse(href="http://community.jboss.org/en/migration")
-        = snippet "home/discuss.md" 
 .row
-  .span9
+  .span12
     = snippet "home/migrate_from.md" 
 
+.row
+  .span12
+    = snippet "home/need_more_help.md"

@@ -1,4 +1,4 @@
 Need more help?
 ---------------
-Contact Red Hat consulting for further migration help
+[Contact Red Hat Consulting](http://www.redhat.com/consulting/technology-solutions/migrations/)
 
