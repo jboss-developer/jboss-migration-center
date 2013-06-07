@@ -24,24 +24,29 @@ Here are the steps in detail:
 
         git fetch upstream
 
-5. Create a new topic branch to contain your features, changes, or fixes.
+5. To update your local master to the latest changes
+
+        git checkout master
+        git rebase upstream/master
+
+6. Create a new topic branch to contain your features, changes, or fixes.
 
         git checkout -b <topic-branch-name> upstream/master
 
-6. Contribute new code or make changes to existing files. 
+7. Contribute new code or make changes to existing files. 
 
-7. Commit your changes to your local topic branch. You must use `git add filename` for every file you create or change.
+8. Commit your changes to your local topic branch. You must use `git add filename` for every file you create or change.
 
         git add <changed-filename>
         git commit -m `Description of change...`
 
    Alternatively, you can use one of the many graphical git clients, such as gitk, gitx, GitHub for Mac etc.
 
-8. Push your local topic branch to your github forked repository. This will create a branch on your Git fork repository with the same name as your local topic branch name.
+9. Push your local topic branch to your github forked repository. This will create a branch on your Git fork repository with the same name as your local topic branch name.
 
         git push origin HEAD            
 
-9. Browse to the <topic-branch-name> branch on your forked Git repository and [open a Pull Request](http://help.github.com/send-pull-requests/). Give it a clear title and description.
+10. Browse to the <topic-branch-name> branch on your forked Git repository and [open a Pull Request](http://help.github.com/send-pull-requests/). Give it a clear title and description.
 
 
 Setup your environment
