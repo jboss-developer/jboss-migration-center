@@ -15,6 +15,7 @@ After your migration motivations and goals are well defined, there are four phas
 4. Implement the [Migration Plan.](#migrationPlan) 
 
 <br/>
+
 Phase I: Application and Infrastructure Assessment <a id="ApplicationandInfrastucture"/>
 ------------------------------------------------
 
