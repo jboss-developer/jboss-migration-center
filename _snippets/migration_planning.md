@@ -1,6 +1,6 @@
-Migration Planning
+Migration Planning <a id="pageTop"/>
 ==================
-<a id="pageTop"/>
+
 Migrating applications can be a complicated process. To ensure success, every migration project, no matter the size or scope, should always start with a detailed migration plan. Beginning with a plan and  assessment which looks at all facets of your IT environment will help you understand the risks, savings, and anticipated costs of your migration project. This information will also enable you determine the steps you need to take to achieve the migration goals this project is designed to provide.
 
 The considerations and processes detailed here are designed to help you identify migration opportunities, examine the risks associated with various migration scenarios, create a standard migration process, and help develop a strategic migration plan. 
@@ -76,9 +76,9 @@ File: [application_assessment.odt](#{site.base_url}/forms/application_assessment
 #{partial("tables/application_assessment.html")}
 
 
-Phase II: Organizational Readiness
+Phase II: Organizational Readiness <a id="organizationalReadiness"/>
 ----------------------------------
-<a id="organizationalReadiness"/>
+
 While, in most cases, technical factors (i.e.moving to newer technologies, improved throughput, replacing retired products, etc.) can be easily delineated and addressed, organizational factors (i.e. cost, personnel, time, etc.), lie beneath the surface and can derail efforts. When organizational  and technical considerations collide, the organizational factors will typically prevail. Seemingly small hurdles can become insurmountable if the organization is unprepared or unwilling to address them. Without a plan for addressing these issues, the organization can quickly become focused on minor shortcomings and overlook major opportunities for migrating to open source.   
 
 The first step to getting any organization ready for migration is to assess any possible organizational issues and risks. From this, a roadmap for addressing these issues can be developed. Organizational readiness factors to determine include:
@@ -105,9 +105,9 @@ Taking these considerations into account for the migration plan will avoid unple
 
 A SWOT assessment (strengths, weaknesses, opportunities and threats) can be used to determine how prepared an organization is to execute on a migration plan. It can  help define an organization's readiness, that is, what is working well, and what needs to be changed or improved. After assessing their strengths and weakness, opportunities and threats, organizations can develop a plan to overcome the weaknesses and leverage their strengths. 
 
-Phase III: Strategic Migration Plan
+Phase III: Strategic Migration Plan <a id="strategicMigrationPlan"/> 
 -----------------------------------
-<a id="strategicMigrationPlan"/>    
+   
 Once the assessments are completed, migration bundles can be created based upon a careful evaluation of their logical interdependencies and business priorities. 
 
 Each migration bundle should have a list of participating applications, implementation teams, and stakeholders who will sign off on work at the end of each phase.  
@@ -116,14 +116,14 @@ File: [migration_plan.odt](#{site.base_url}/forms/migration_plan.odt)
 
 #{partial("tables/migration_plan.html")}
 
-Phase IV: Migration Plan Implementation 
+Phase IV: Migration Plan Implementation <a id="migrationPlan"/>
 ---------------------------------------
-<a id="migrationPlan"/>
+
 When performing a migration, it is important to use a standard operating environment (SOE) upon which to migrate. An SOE is an organization’s standard implementation of the core operating system and middleware components. It should include the base operating system, the JEE container, custom configurations, standard applications used within an organization, software updates, and service packs.  
    
 Once a migration bundle has been identified, a standardized configuration based on an SOE approach can be created for rapid and consistent deployment. An SOE configuration consists of a set of tested hardware, tested software,  and configurations deployed within a JBoss environment. The SOE configuration should be fully aligned to your technical and business requirements. It will dramatically reduce deployment time, simplify maintenance, increase stability, and reduce support and management costs.  
 
 For each phase of a migration bundle's implementation from engineering implementation through,  QA validation and production deployment the appropriate stakeholder should review the work and signed-off on the phrase.  
 
-[[TOP]] (#pageTop)
+[[TOP]](#pageTop)
 
