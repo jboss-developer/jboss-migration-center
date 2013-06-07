@@ -15,9 +15,9 @@ After your migration motivations and goals are well defined, there are four phas
 4. Implement the [Migration Plan.](#migrationPlan) 
 
 
-Phase I: Application and Infrastructure Assessment
+Phase I: Application and Infrastructure Assessment <a id="ApplicationandInfrastucture"/>
 ------------------------------------------------
-<a id="ApplicationandInfrastucture"/>
+
 To ensure that business services are not unnecessarily disrupted, a detailed application and infrastructure assessment is needed. The purpose of this analysis is to create a document package for each application, with sufficient understanding of its current footprint, to evolve a clear, orderly, measurable migration strategy.
 
 The document package consistes of the following documents.  
