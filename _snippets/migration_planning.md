@@ -123,7 +123,7 @@ File: [migration_plan.odt](#{site.base_url}/forms/migration_plan.odt)
 
 #{partial("tables/migration_plan.html")}
 
-<br/>
+<br/><br/>
 
 Phase IV: Migration Plan Implementation <a id="migrationPlan"/>
 ---------------------------------------
