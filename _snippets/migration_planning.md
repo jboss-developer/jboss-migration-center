@@ -104,7 +104,7 @@ Budget
   * How do you model your business justification for a major IT initiative? Do you take an ROI or a TCO approach?
 
 
-Taking these considerations into account for the migration plan will avoid unpleasant surprises and help ensure a the migration objectives are met.  
+Taking these considerations into account for the migration planning will avoid unpleasant surprises and help ensure the migration objectives are met.  
 
 A SWOT assessment (strengths, weaknesses, opportunities and threats) can be used to determine how prepared an organization is to execute on a migration plan. It can  help define an organization's readiness, that is, what is working well, and what needs to be changed or improved. After assessing their strengths and weakness, opportunities and threats, organizations can develop a plan to overcome the weaknesses and leverage their strengths. 
 
@@ -130,9 +130,9 @@ Phase IV: Migration Plan Implementation <a id="migrationPlan"/>
 
 When performing a migration, it is important to use a standard operating environment (SOE) upon which to migrate. An SOE is an organization’s standard implementation of the core operating system and middleware components. It should include the base operating system, the JEE container, custom configurations, standard applications used within an organization, software updates, and service packs.  
    
-Once a migration bundle has been identified, a standardized configuration based on an SOE approach can be created for rapid and consistent deployment. An SOE configuration consists of a set of tested hardware, tested software,  and configurations deployed within a JBoss environment. The SOE configuration should be fully aligned to your technical and business requirements. It will dramatically reduce deployment time, simplify maintenance, increase stability, and reduce support and management costs.  
+Once a migration bundle has been identified, a standardized configuration based on an SOE approach can be created for rapid and consistent deployment. An SOE configuration consists of a set of tested hardware, tested software, and configurations deployed within a JBoss environment. The SOE configuration should be fully aligned to your technical and business requirements. It will dramatically reduce deployment time, simplify maintenance, increase stability, and reduce support and management costs.  
 
-For each phase of a migration bundle's implementation from engineering implementation through,  QA validation and production deployment the appropriate stakeholder should review the work and signed-off on the phrase.  
+For each phase of a migration bundle's implementation from engineering implementation through, QA validation and production deployment the appropriate stakeholder should review the work and signed-off on the phrase.  
 
 [[TOP]](#pageTop)
 
