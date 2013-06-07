@@ -5,6 +5,8 @@ Once you have a good understanding of your [migration goals](#{site.base_url}/mi
 
 All of the tools on this page are being developed by the open source community and are protected either under the <a href="http://www.eclipse.org/org/documents/epl-v10.html">Eclipse Public License</a> or the <a href="http://www.apache.org/licenses">Apache License</a>. They are not developed  or supported by Red Hat Software.  You may choose to either download the executable, or go to the project site where you can download the code, read more about the projects, contribute to the code development and participate in the forums.
 
+<br/>
+
 Windup
 ------
 
@@ -29,7 +31,7 @@ Windup is comprised of resource interrogators. These interrogators look for comm
 </div>
 
 
-<br />
+<br/><br/>
 
 JBoss Configuration Migration Tool (Early Access)
 -------------------------------------------------
