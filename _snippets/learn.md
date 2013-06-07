@@ -90,7 +90,7 @@ The JBoss LogManager provides the application logging framework.  It is an exten
 
 
 JPA 
----
+----
 <a id="jpa"/>
 Hibernate provides JBoss EAP 6 with a complete Java Persistence solution. It is 100% compliant with the Java Persistence 2.0 specification and provides additional features to the specification. [Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#About_Hibernate_Core)
 
@@ -108,7 +108,7 @@ RESTEasy is the JBoss EAP 6's implementation of JAX-RS. It provides support for 
 
 
 CDI 
----
+----
 <a id="cdi"/>
 Contexts and Dependency Injection (CDI) introduces the ability to inject dependencies in a type-safe way. CDI is define by JSR-299. Weld is the reference implementation of JSR-299, and is provided in JBoss EAP 6. [Read more](https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html-single/Development_Guide/index.html#Overview_of_CDI)
 
