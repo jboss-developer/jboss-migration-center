@@ -1,7 +1,7 @@
 Discover
 ========
 
-Once you have a good understanding of your [migration goals](#{site.base_url}/migrationDrivers), have put together a [migration plan](#{site.base_url}/common/migrationPlanning.html), and feel comfortable with [Red Hat JBoss Enterprsie Application Platform](#{site.base_url}/common/learn.html), the following tools will help you discover any possible issues that you will need to take into account as you are migrating your application or setting up your server environments.
+Once you have a good understanding of your [migration goals](#{site.base_url}/common/migrationDrivers.html), have put together a [migration plan](#{site.base_url}/common/migrationPlanning.html), and feel comfortable with [Red Hat JBoss Enterprsie Application Platform](#{site.base_url}/common/learn.html), the following tools will help you discover any possible issues that you will need to take into account as you are migrating your application or setting up your server environments.
 
 All of the tools on this page are being developed by the open source community and are protected either under the <a href="http://www.eclipse.org/org/documents/epl-v10.html">Eclipse Public License</a> or the <a href="http://www.apache.org/licenses">Apache License</a>. They are not developed  or supported by Red Hat Software.  You may choose to either download the executable, or go to the project site where you can download the code, read more about the projects, contribute to the code development and participate in the forums.
 
@@ -47,4 +47,3 @@ The JBoss Configuration Migration Tool is an early access project. This tool ana
     <a href="http://github.com/OndraZizka/jboss-migration" class="btn btn-discover"> Config Tool Project Site</a>
   </div>
 </div>
-
