@@ -14,7 +14,7 @@ After your migration motivations and goals are well defined, there are four phas
 3. Develop a [Strategic Migration Plan.](#strategicMigrationPlan)
 4. Implement the [Migration Plan.](#migrationPlan) 
 
-
+<br/>
 Phase I: Application and Infrastructure Assessment <a id="ApplicationandInfrastucture"/>
 ------------------------------------------------
 
@@ -76,6 +76,7 @@ File: [application_assessment.odt](#{site.base_url}/forms/application_assessment
 #{partial("tables/application_assessment.html")}
 [[TOP]](#pageTop)
 
+
 Phase II: Organizational Readiness <a id="organizationalReadiness"/>
 ----------------------------------
 
@@ -107,6 +108,7 @@ A SWOT assessment (strengths, weaknesses, opportunities and threats) can be used
 
 [[TOP]](#pageTop)
 
+
 Phase III: Strategic Migration Plan <a id="strategicMigrationPlan"/> 
 -----------------------------------
    
@@ -117,6 +119,7 @@ Each migration bundle should have a list of participating applications, implemen
 File: [migration_plan.odt](#{site.base_url}/forms/migration_plan.odt)
 
 #{partial("tables/migration_plan.html")}
+
 
 Phase IV: Migration Plan Implementation <a id="migrationPlan"/>
 ---------------------------------------
