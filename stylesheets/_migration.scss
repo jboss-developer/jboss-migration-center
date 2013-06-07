@@ -12,11 +12,13 @@ $btnDiscoverBackgroundHighlight: #781f1c;
   h1 {
     color: $titleColor; 
   }
+  /* future define for anchor with specific class
   a:not(.btn) {
     line-height:11px;
     background:url(../images/OpenOut.png)  center right no-repeat;
     padding-right:20px;
   } 
+  */
 }
 
 // Discover buttons are custom for the migration center based on crobson's styling
