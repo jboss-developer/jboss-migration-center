@@ -33,11 +33,11 @@ The document package consistes of the following documents.
 During the initial assessment phase of each application, it is important to capture the names of all current stakeholders who are responsible for making the  key decisions pertaining to the software and hardware infrastructure involved in the migration. The table below illustrates a useful set of information about key stakeholders for an application. Usually these stakeholders will be involved in the planning, building and testing of components during the migration process and sign-off at the end of each phase.  
 
 Below is an example of information you will want to collect.  
-<!--
+
 File: [application_contacts.odt](#{site.base_url}/forms/application_contacts.odt)
 
 #{partial("tables/application_contacts.html")}
--->
+
 ### Infrastructure analysis ###
 
 The migration infrastructure includes the full ecosystem in which the application server operates. This analysis is an inventory of the existing servers, network infrastructure, and applications. It sets a baseline of existing functionality and load capacity.
@@ -70,11 +70,11 @@ Further analysis may be needed to determine how best to address identified techn
 *Windup* is a free open source tool that can help with this assessment. It will analyze your code and generates a report that identifies known issues. In addition the report provides an estimate of effort required to make code changes and where appropriate, offers suggestions for replacement code. 
 
 Windup produces an HTML report highlighting areas that require changes. It is helpful to move this information into a maintainable spreadsheet. It is a good reference document to share and it can be used to generate more detailed project plans and to track project progress.  
-<!--
+
 File: [application_assessment.odt](#{site.base_url}/forms/application_assessment.odt)
 
 #{partial("tables/application_assessment.html")}
--->
+
 
 Phase II: Organizational Readiness
 ----------------------------------
