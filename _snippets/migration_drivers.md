@@ -61,7 +61,7 @@ The easiest and most cost-effective way to start your migration is to migrate ba
 
 ### Java EE Migration ###
 
-Migrating Java EE applications is in theory no more difficult than migrating pure web applications. However, keep in mind that a main of Java EE specifications is to facilitate the integration of multiple frameworks with diverse functionalities. This means that, in most cases, you will be implementing several "mini-migrations".
+Migrating Java EE applications is in theory no more difficult than migrating pure web applications.  However, the purpose of Java EE specifications is to facilitate the integration of multiple frameworks with diverse functionalities. This means that there will in practice be many mini-migrations involved.
 
   In addtion, if proprietary IDEs are used in the development of Java EE applications, these will often have the generated classes extend and implement proprietary classes and interfaces. 
   
