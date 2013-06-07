@@ -68,7 +68,7 @@ An assessment of the source code of each application to be migrated should be ma
 
 Further analysis may be needed to determine how best to address identified technology gaps, find open source alternatives to proprietary APIs, and solutions to configuration conflicts.  This information will enable you to scope the engineering time and effort required to migrate an application.  
    
-*Windup* is a free open source tool that can help with this assessment. It will analyze your code and generates a report that identifies known issues. In addition the report provides an estimate of effort required to make code changes and where appropriate, offers suggestions for replacement code. 
+[Windup](#{site.base_url}/discover) is a free open source tool that can help with this assessment. It will analyze your code and generates a report that identifies known issues. In addition the report provides an estimate of effort required to make code changes and where appropriate, offers suggestions for replacement code. 
 
 Windup produces an HTML report highlighting areas that require changes. It is helpful to move this information into a maintainable spreadsheet. It is a good reference document to share and it can be used to generate more detailed project plans and to track project progress.  
 
