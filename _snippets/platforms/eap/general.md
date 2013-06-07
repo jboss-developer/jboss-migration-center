@@ -20,7 +20,6 @@ Caching
 JPA
 : Hibernate 4 is the default persistence component in JBoss EAP 6. There may be application changes needed to use this version of Hibernate. You may need to make changes to your application to conform to JPA 2.0, replace the second level cache to use Infinipan, make adjustments to your definition of a CLOB, change the return type of  projections in org.hibernate.criterion, or make changes to the application's persistence configuration file.  Review the subsections in section [3.2.2 of the, "JBoss Enterprise Application Platform 6 Migration Guide"](https://access.redhat.com/knowledge/docs/en-US/JBoss_Enterprise_Application_Platform/6/html/Migration_Guide/sect-Hibernate_and_JPA_Changes.html), and make the necessary changes.
  
-<br/>
 
   Alternatively you can install Hibernate 3 as a module and declare it be used by your application instead. [How to use Hibernate 3 as JPA provider in JBoss AS7](http://badr-elhouari.blogspot.com/2011/10/how-to-use-hibernate-3-as-jpa-provider.html) describes how to do this.
 
