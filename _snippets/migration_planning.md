@@ -1,4 +1,4 @@
-Migration Planning <a class="noImg" id="pageTop"/>
+Migration Planning <a id="pageTop"/>
 ==================
 
 Migrating applications can be a complicated process. To ensure success, every migration project, no matter the size or scope, should always start with a detailed migration plan. Beginning with a plan and  assessment which looks at all facets of your IT environment will help you understand the risks, savings, and anticipated costs of your migration project. This information will also enable you determine the steps you need to take to achieve the migration goals this project is designed to provide.
