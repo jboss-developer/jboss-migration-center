@@ -45,7 +45,7 @@ The migration infrastructure includes the full ecosystem in which the applicatio
 
 Below is an example of information you will want to collect 
 
-File: [infrastructure_analysis.odt]({site.base_url}/forms/infrastructure_analysis.odt)
+File: [infrastructure_analysis.odt](#{site.base_url}/forms/infrastructure_analysis.odt)
 
 #{partial("tables/infrastructure_analysis.html")}
 
