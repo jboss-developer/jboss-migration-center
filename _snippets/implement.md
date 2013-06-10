@@ -1,7 +1,7 @@
 Implement
 =========
 
-Please select the platform you are migrating from, for specific migration information.  
+Please select the platform you are migrating from, for specific migration information.
 
 
 * [Oracle WebLogic 10.x,11.x](#{site.base_url}/platforms/weblogic)
