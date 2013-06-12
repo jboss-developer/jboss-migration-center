@@ -43,7 +43,7 @@ The JBoss Configuration Migration Tool is an early access project. This tool ana
     <img src="" />
   </div>
   <div class="span4 pagination-centered">
-    <a href="https://repository.jboss.org/nexus/content/repositories/releases/org/jboss/migr/as/AsMigrator/0.9.4/AsMigrator-0.9.4.jar" class="btn btn-discover">Download Migration Tool</a>
+    <a href="https://repository.jboss.org/nexus/content/repositories/releases/org/jboss/migr/as/AsMigrator/0.10.4/AsMigrator-0.10.4.jar" class="btn btn-discover">Download Migration Tool</a>
   </div>
   <div class="span4 pagination-centered">
     <a href="http://github.com/OndraZizka/jboss-migration" class="btn btn-discover"> Config Tool Project Site</a>
