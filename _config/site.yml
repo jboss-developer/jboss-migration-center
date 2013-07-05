@@ -14,5 +14,6 @@ profiles:
   production:
     base_url: http://www.jboss.org/migration
     metrics: true
-    metrics_base_url:  http://www.redhat.com
+    metrics_base_url: http://www.redhat.com
     google_analytics: UA-10656779-1
+
