@@ -33,20 +33,28 @@ Windup is comprised of resource interrogators. These interrogators look for comm
 
 <br/><br/>
 
-JBoss Configuration Migration Tool (Early Access)
+WindRide
 -------------------------------------------------
 
-The JBoss Configuration Migration Tool is an early access project. This tool analyzes and migrates JBoss EAP 5 server configuration data to your JBoss EAP 6 installation.  This tool also supports migrating server data from AS 5 to AS 6. Future versions will use Windup to analyze server configurations for migrating from proprietary platforms (IBM, Oracle) to JBoss EAP 6.
+WindRide is a JBoss server configuration migration tool.  It assists in migrating JBoss EAP 5, AS 5, or AS 6 server configuration to JBoss EAP 6, AS7, or WildFly 8.  The tool analyzes the server configuration files, produces a Windup style HTML report highlighting areas that require changes, and performs the migration.  This short <a href="https://www.youtube.com/watch?v=xEWaXgpLJ4k" >video</a> provides a demonstration of the tool.
+
+WindRide provides an externalized rules facility that enables users to provide new migration rules.
+
+### How Does it Work? ###
+
+WindRide consists of a set of migrators.  A migrator contains the logic to indentify a configuration element in the source server, report the finding, and perform the action to migrate the data.
+
+Externalized rules enable the user to add migration rules without any recompilation of WindRide.  The migration rules are provided in an XML file that is processed by WindRide.  Learn how to create your own rules on this <a href="https://github.com/OndraZizka/jboss-migration/wiki/Migrator-Definition-Rules" >page</a> and from this <a href="http://www.youtube.com/watch?v=2j0Ap-VsmW4" >video</a>
 
 <div class="row">
   <div class="span4 pagination-centered">
     <img src="" />
   </div>
   <div class="span4 pagination-centered">
-    <a href="https://repository.jboss.org/nexus/content/repositories/releases/org/jboss/migr/as/AsMigrator/0.10.4/AsMigrator-0.10.4.jar" class="btn btn-discover">Download Migration Tool</a>
+    <a href="https://repository.jboss.org/nexus/content/repositories/releases/org/jboss/migr/as/WindRide/1.0.0/WindRide-1.0.0.jar" class="btn btn-discover">Download WindRide</a>
   </div>
   <div class="span4 pagination-centered">
-    <a href="http://github.com/OndraZizka/jboss-migration" class="btn btn-discover"> Config Tool Project Site</a>
+    <a href="http://github.com/OndraZizka/jboss-migration" class="btn btn-discover"> WindRide Project Site</a>
   </div>
 </div>
 
