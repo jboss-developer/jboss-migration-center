@@ -15,7 +15,7 @@ EMAIL_FROM="\"Migration Center Publish Script\" <jboss-migration@redhat.com>"
 JBORG_DIR="migration"
 JBORG_REPO="filemgmt.jboss.org:www_htdocs"
 
-STAGING_URL="${JBORG_DIR}.jboss.org/staging"
+STAGING_URL="www.jboss.org/${JBORG_DIR}/staging"
 STAGING_DIR="${JBORG_DIR}/staging"
 
 PRODUCTION_DIR="${JBORG_DIR}"
