@@ -62,7 +62,7 @@ Externalized rules enable the user to add migration rules without any recompilat
 
 <br/><br/>
 
-Tubame<sup style="font-size:20px;">&#8482;</sup> 
+Tubame 
 ------
 Tubame is a set of Eclipse* plugins that assists in migrating Java EE applications to Red Hat JBoss Enterprise Application Platform (JBoss EAP) 6.   
 The heart of Tubame is an  external, customizable rules file.  Tubame analyzes the source code based on the set of rules provided in the rules file.  
