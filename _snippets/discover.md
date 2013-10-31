@@ -62,10 +62,10 @@ Externalized rules enable the user to add migration rules without any recompilat
 
 <br/><br/>
 
-Tubame 
+TUBAME 
 ------
-Tubame is a set of Eclipse* plugins that assists in migrating Java EE applications to Red Hat JBoss Enterprise Application Platform (JBoss EAP) 6.   
-The heart of Tubame is an  external, customizable rules file.  Tubame analyzes the source code based on the set of rules provided in the rules file.  
+TUBAME is a set of Eclipse* plugins that assists in migrating Java EE applications to Red Hat JBoss Enterprise Application Platform (JBoss EAP) 6.   
+The heart of TUBAME is an  external, customizable rules file.  TUBAME analyzes the source code based on the set of rules provided in the rules file.  
 The  results are saved and subsequently formatted and displayed in the KnowledgeBase Search Tool perspective.
 
 
@@ -75,9 +75,9 @@ The report that is generated is displayed in a custom Eclipse perspective in whi
 * jump to the section of source code containing the issue(s), and
 * view advice for how to resolve the issue(s).
 
-A customized Eclipse editor is included with Tubame to allow the developer to easily customize the rules file.
+A customized Eclipse editor is included with TUBAME to allow the developer to easily customize the rules file.
 
-Currently, Tubame provides rules for updating Red Hat JBoss Enterprise Application Platform 4 applications to JBoss EAP 6.
+Currently, TUBAME provides rules for updating Red Hat JBoss Enterprise Application Platform 4 applications to JBoss EAP 6.
 
 *Eclipse Indigo 3.7
 
@@ -86,10 +86,10 @@ Currently, Tubame provides rules for updating Red Hat JBoss Enterprise Applicati
     <img src="#{site.base_url}/images/TUBAME.png" height="150" width="150"/>
   </div>
   <div class="span4 pagination-centered">
-    <a href="https://github.com/TUBAME/migration-tool/releases" class="btn btn-discover">Tubame Plugins</a>
+    <a href="https://github.com/TUBAME/migration-tool/releases" class="btn btn-discover">TUBAME Plugins</a>
   </div>
   <div class="span4 pagination-centered">
-    <a href="https://github.com/TUBAME/migration-tool" class="btn btn-discover"> Tubame Project Site</a>
+    <a href="https://github.com/TUBAME/migration-tool" class="btn btn-discover"> TUBAME Project Site</a>
   </div>
 </div>
 
