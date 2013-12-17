@@ -19,7 +19,7 @@ STAGING_URL="www.jboss.org/${JBORG_DIR}/staging"
 STAGING_DIR="${JBORG_DIR}/staging"
 
 PRODUCTION_DIR="${JBORG_DIR}"
-PRODUCTION_URL="${PRODUCTION_DIR}.jboss.org/"
+PRODUCTION_URL="www.jboss.org/${PRODUCTION_DIR}"
 
 
 notify_email()
